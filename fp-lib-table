@@ -1,0 +1,9 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "gbc_repro_lib")(type "KiCad")(uri "${KIPRJMOD}/gbc_repro_lib.pretty")(options "")(descr ""))
+  (lib (name "PintryParts-Footprints")(type "KiCad")(uri "${KIPRJMOD}/PintryParts-Footprints.pretty")(options "")(descr ""))
+  (lib (name "Bentendo")(type "KiCad")(uri "${KIPRJMOD}/Bentendo.pretty")(options "")(descr ""))
+  (lib (name "jkiv-kicad-library")(type "KiCad")(uri "${KIPRJMOD}/jkiv-kicad-library.pretty")(options "")(descr ""))
+  (lib (name "digikey-kicad-library")(type "KiCad")(uri "${KIPRJMOD}/digikey-kicad-library.pretty")(options "")(descr ""))
+  (lib (name "RPi-CM4-Kicad")(type "KiCad")(uri "${KIPRJMOD}/RPi-CM4-Kicad.pretty")(options "")(descr ""))
+)
