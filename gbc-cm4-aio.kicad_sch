@@ -16287,6 +16287,16 @@
 	)
 	(wire
 		(pts
+			(xy 175.895 240.03) (xy 193.675 240.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1c66ccbe-daf5-4acf-91ea-ef71c09e7098")
+	)
+	(wire
+		(pts
 			(xy 520.065 203.2) (xy 520.065 205.74)
 		)
 		(stroke
@@ -17875,6 +17885,16 @@
 			(type solid)
 		)
 		(uuid "5695f336-6bde-4e70-8ab2-ae1d9dc3f935")
+	)
+	(wire
+		(pts
+			(xy 308.61 45.72) (xy 298.45 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "569f8a72-d1f8-4f2c-bb05-8e8dc621de4d")
 	)
 	(wire
 		(pts
@@ -23617,6 +23637,17 @@
 		)
 		(uuid "b70cbcc4-8db5-4aab-a46c-c877dc045193")
 	)
+	(label "ALERT"
+		(at 175.895 240.03 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "b8f5bd7b-2a9c-47f7-9f06-fe929e14b172")
+	)
 	(label "NAV_UP"
 		(at 139.065 164.465 0)
 		(fields_autoplaced yes)
@@ -23792,6 +23823,17 @@
 			(justify left bottom)
 		)
 		(uuid "d255e5b6-0b79-4fc9-8680-8c8188a47414")
+	)
+	(label "ALERT"
+		(at 308.61 45.72 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "d31a225c-5b07-4932-9704-e990af147073")
 	)
 	(label "BTN_A"
 		(at 272.415 240.03 180)
