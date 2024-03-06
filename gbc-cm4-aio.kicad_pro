@@ -37,7 +37,7 @@
         "other_text_thickness": 0.15,
         "other_text_upright": false,
         "pads": {
-          "drill": 1.2,
+          "drill": 1.0,
           "height": 2.0,
           "width": 2.0
         },
@@ -554,7 +554,7 @@
       "gencad": "",
       "idf": "",
       "netlist": "../../../../../Applications/KiCad/KiCad.app/Contents/Applications/",
-      "plot": "",
+      "plot": "gerbers",
       "pos_files": "",
       "specctra_dsn": "",
       "step": "OutputJob/Version1.1/Pintry-X2_3DModel_1.1.step",
