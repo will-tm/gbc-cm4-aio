@@ -41,6 +41,7 @@ TBD
 - [x] Design v1.1 mainboard
 - [x] Order v1.1 mainboard
 - [ ] Bring up v1.1 mainboard
+- [ ] Find a way to crop DSI panel as glass lens covers some of it
 - [ ] Put together a fully functional Linux image (ongoing)
 - [ ] Implement an on-screen indicator for volume, brightness control via GPIOs
 - [ ] Other optimizations/improvements/bug fixes
