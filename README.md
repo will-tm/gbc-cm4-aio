@@ -1,6 +1,6 @@
 # GBC CM4 AIO
 
-![aio-pcb](https://github.com/will-tm/gbc-cm4-aio/assets/1313292/36e6f437-7c3e-4663-b15f-89dd9e1ea0f4)
+![aio-pcb](https://github.com/will-tm/gbc-cm4-aio/assets/1313292/d78b77a7-ad92-41a5-a3d7-4e3578ecf0ef)
 
 ## Description
  
