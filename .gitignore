@@ -30,7 +30,8 @@ fp-info-cache
 
 # Output
 gerbers
-gerbers.zip
+*.zip
+gerber
 
 
 # OS generated files #
