@@ -1,12 +1,6 @@
-<div align="center">
-  <h1>GBC CM4 AIO</h1>
-</div>
-
-<div align="center">
-  <img src="https://github.com/will-tm/gbc-cm4-aio/assets/1313292/f61157d3-e312-4da4-9e1c-ff2232fcaf88">
-</div>
-
 # GBC CM4 AIO
+
+![aio-pcb](https://github.com/will-tm/gbc-cm4-aio/assets/1313292/36e6f437-7c3e-4663-b15f-89dd9e1ea0f4)
 
 ## Description
  
@@ -23,13 +17,14 @@ This project is a drop-in replacement board that fits and Gameboy Color shell an
 
 ## Requirements to Build the GBC CM4 AIO
 
-### Code 
+TBD
+
+## Code 
 
 TBD
 
--------------------------------------------------------------------------------------------------------
+## To-do
 
-### To-do
 - [x] Hardware familiarization - CM$ board schematics
 - [x] Design v1.0 DSI test display board for LT031MDZ4000
 - [x] Order v1.0 DSI test display board for LT031MDZ4000
@@ -48,5 +43,3 @@ TBD
 - [ ] Other optimizations/improvements/bug fixes
 - [ ] Create prototype showcase video
 - [ ] Final GitHub open source release & announcement!
-
--------------------------------------------------------------------------------------------------------
