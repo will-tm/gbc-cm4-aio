@@ -11019,7 +11019,7 @@
 		(descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "resistor")
 		(property "Reference" "R12"
-			(at -2.84 0.00125 270)
+			(at -2.84 0.00125 -90)
 			(layer "B.SilkS")
 			(uuid "f778946e-29ff-46df-8cf5-28122373c0c8")
 			(effects
@@ -11031,7 +11031,7 @@
 			)
 		)
 		(property "Value" "10k"
-			(at 0 -1.43 270)
+			(at 0 -1.43 -90)
 			(layer "B.Fab")
 			(uuid "744d4058-e703-47c5-83cb-8b0610fe133f")
 			(effects
@@ -11187,7 +11187,7 @@
 			(uuid "9716e2fc-ba48-417a-80bf-9f278c59a3ff")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 270)
+			(at 0 0 -90)
 			(layer "B.Fab")
 			(uuid "e08a5939-0702-4606-8a65-ab18fedec70f")
 			(effects
@@ -37921,7 +37921,7 @@
 		(descr "Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "capacitor")
 		(property "Reference" "C33"
-			(at 2.795 0 270)
+			(at 2.795 0 -90)
 			(layer "B.SilkS")
 			(uuid "28560add-7b68-41ca-81bb-ed86ffa6596e")
 			(effects
@@ -37933,7 +37933,7 @@
 			)
 		)
 		(property "Value" "1uF"
-			(at 0 -1.43 270)
+			(at 0 -1.43 -90)
 			(layer "B.Fab")
 			(uuid "99726130-ba9c-49c3-ba77-cb534902d9c8")
 			(effects
@@ -38089,7 +38089,7 @@
 			(uuid "d78e12e6-c444-456d-9497-069138d34629")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 270)
+			(at 0 0 -90)
 			(layer "B.Fab")
 			(uuid "2ad51196-215e-49a7-9153-c53f1e131e2b")
 			(effects
@@ -39462,7 +39462,7 @@
 		(descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "resistor")
 		(property "Reference" "R42"
-			(at 0.295 1.34 360)
+			(at 0.295 1.34 0)
 			(layer "B.SilkS")
 			(uuid "5382670f-272e-42a8-80c2-010566f7945b")
 			(effects
@@ -39474,7 +39474,7 @@
 			)
 		)
 		(property "Value" "1K"
-			(at 0 -1.43 360)
+			(at 0 -1.43 0)
 			(layer "B.Fab")
 			(uuid "939cf7f3-e2dd-448c-99e0-858e09a9acbf")
 			(effects
@@ -39522,7 +39522,7 @@
 			)
 		)
 		(property "Size" "0603"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "B.Fab")
 			(hide yes)
 			(uuid "55892362-7365-4fad-823a-04ddafeac98e")
@@ -39535,7 +39535,7 @@
 			)
 		)
 		(property "Tolerance" "1%"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "B.Fab")
 			(hide yes)
 			(uuid "d50a9434-15b6-4be1-bca5-782677a857fc")
@@ -39653,7 +39653,7 @@
 			(uuid "f8564039-78bd-4ac6-9d96-070ab1e202d0")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "B.Fab")
 			(uuid "e907a0da-0a8b-481c-8b08-ea9308a55707")
 			(effects
@@ -44067,7 +44067,7 @@
 			(justify left bottom mirror)
 		)
 	)
-	(gr_text "GBC AIO v1.1"
+	(gr_text "GBC AIO v1.2"
 		(at 152.53 151.89 0)
 		(layer "B.SilkS")
 		(uuid "d6666edc-443e-47c7-a2f4-3315330b68e4")
@@ -44079,8 +44079,8 @@
 			(justify left bottom mirror)
 		)
 	)
-	(gr_text "GBC AIO v1.1"
-		(at 149.5 252.17 -0)
+	(gr_text "GBC AIO v1.2"
+		(at 149.5 252.17 0)
 		(layer "F.SilkS")
 		(uuid "00599775-043e-42ad-ab9c-5e1dbc7658cd")
 		(effects
@@ -62040,13 +62040,13 @@
 		)
 	)
 	(group ""
-		(uuid "939798cc-7c50-498f-9cfc-7b7599aa2321")
+		(uuid "2f978499-de1a-40c0-8b86-0bc0af6814f5")
 		(members "00599775-043e-42ad-ab9c-5e1dbc7658cd" "1dd9dd9d-9b8c-4d2f-96e6-806c47b6f728"
 			"816950a7-999e-4f70-a1f3-c7cbe958b79f" "dbd9a936-c643-4f21-bb7d-8db8dcceff34"
 		)
 	)
 	(group ""
-		(uuid "0546f43a-9b5d-4da9-9542-0905a4c9e435")
+		(uuid "6777b3c0-9392-4b7b-b750-c40ac6c0411c")
 		(members "7495dc83-6222-4832-8c76-1bd0a1e8bc1e" "a3e6741d-9821-4eca-9eac-55ddd64aee4e"
 			"ce2c85fb-348d-4ae9-a748-d12cce1337f1" "d6666edc-443e-47c7-a2f4-3315330b68e4"
 		)
