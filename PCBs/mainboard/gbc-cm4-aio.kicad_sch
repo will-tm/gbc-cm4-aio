@@ -920,213 +920,6 @@
 				)
 			)
 		)
-		(symbol "CM4IO:RT9742GGJ5"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "U3"
-				(at -1.27 16.891 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "RT9742GGJ5"
-				(at -1.27 14.5796 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" "Package_TO_SOT_SMD:SOT-23-5"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "https://www.richtek.com/assets/product_file/RT9742/DS9742-00.pdf"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Field4" "Farnell"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Field5" "	2545875"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Field6" "RT9742GGJ5"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Field7" "RichTek"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Field8" "USWI00166"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Part Description" "	Power Switch/Driver 1:1 N-Channel 1A TSOT-23-5"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "RT9742GGJ5_0_0"
-				(pin power_out line
-					(at -8.89 10.16 0)
-					(length 2.54)
-					(name "OUT"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at -8.89 7.62 0)
-					(length 2.54)
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin open_collector line
-					(at -8.89 5.08 0)
-					(length 2.54)
-					(name "nFLG"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at 6.35 5.08 180)
-					(length 2.54)
-					(name "EN"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 6.35 10.16 180)
-					(length 2.54)
-					(name "IN"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(symbol "RT9742GGJ5_0_1"
-				(rectangle
-					(start -6.35 12.7)
-					(end 3.81 2.54)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-			)
-		)
 		(symbol "Connector:AudioJack2_Ground_Switch"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -14162,12 +13955,6 @@
 		(uuid "0da3afbb-0df9-4e38-973e-e09c5e2be295")
 	)
 	(junction
-		(at 346.075 171.45)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "0e1a1b87-6c8f-4c8e-b418-d321b273841d")
-	)
-	(junction
 		(at 254.635 308.61)
 		(diameter 0.9144)
 		(color 0 0 0 0)
@@ -14870,6 +14657,12 @@
 		(uuid "dd7cbcaa-f4a1-4a77-b6d7-18f11973bc25")
 	)
 	(junction
+		(at 285.115 131.445)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ddde6aad-fbdb-41af-b3eb-6f93831e1b28")
+	)
+	(junction
 		(at 257.175 219.71)
 		(diameter 0.9144)
 		(color 0 0 0 0)
@@ -15306,10 +15099,6 @@
 		(uuid "e6cf4a27-0dbb-42bf-95c5-673b0287e4f6")
 	)
 	(no_connect
-		(at 323.85 179.07)
-		(uuid "e77289b6-7c2c-4444-8517-0dcea2e73422")
-	)
-	(no_connect
 		(at 50.165 252.73)
 		(uuid "e8abff97-31be-4c67-91f7-a331ed471ed0")
 	)
@@ -15454,16 +15243,6 @@
 			(type solid)
 		)
 		(uuid "02867472-587f-428b-8f88-22f9d11cacc4")
-	)
-	(wire
-		(pts
-			(xy 323.85 176.53) (xy 314.96 176.53)
-		)
-		(stroke
-			(width 0)
-			(type solid)
-		)
-		(uuid "029121e3-07c8-4e4e-b390-bbc26351c75b")
 	)
 	(polyline
 		(pts
@@ -17513,16 +17292,6 @@
 		)
 		(uuid "470c8041-0789-4e43-96c0-6fdeb3003be3")
 	)
-	(wire
-		(pts
-			(xy 339.09 179.07) (xy 355.6 179.07)
-		)
-		(stroke
-			(width 0)
-			(type solid)
-		)
-		(uuid "472b9371-07d8-48d7-b6f5-cfa8c7875cec")
-	)
 	(polyline
 		(pts
 			(xy 459.74 17.78) (xy 459.74 98.425)
@@ -18831,16 +18600,6 @@
 	)
 	(wire
 		(pts
-			(xy 346.075 171.45) (xy 355.6 171.45)
-		)
-		(stroke
-			(width 0)
-			(type solid)
-		)
-		(uuid "792be11f-21d1-4d62-93db-6b9f5021d41c")
-	)
-	(wire
-		(pts
 			(xy 406.4 213.36) (xy 406.4 218.44)
 		)
 		(stroke
@@ -19437,16 +19196,6 @@
 	)
 	(wire
 		(pts
-			(xy 346.075 168.91) (xy 346.075 171.45)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "90945bd8-8763-454a-b99b-2b4ad31e1393")
-	)
-	(wire
-		(pts
 			(xy 502.92 43.18) (xy 502.92 49.53)
 		)
 		(stroke
@@ -19635,16 +19384,6 @@
 			(type default)
 		)
 		(uuid "978d890b-a7e4-4f93-bb1e-6e18c07d5303")
-	)
-	(wire
-		(pts
-			(xy 346.075 173.99) (xy 339.09 173.99)
-		)
-		(stroke
-			(width 0)
-			(type solid)
-		)
-		(uuid "97ece837-50b4-4553-bf6f-75abb899c2cb")
 	)
 	(wire
 		(pts
@@ -20232,16 +19971,6 @@
 			(type default)
 		)
 		(uuid "aa459070-8910-4167-9efd-862cc3155fc3")
-	)
-	(wire
-		(pts
-			(xy 323.85 173.99) (xy 314.96 173.99)
-		)
-		(stroke
-			(width 0)
-			(type solid)
-		)
-		(uuid "aa9b2a84-58ea-4432-ae08-04743a414fbe")
 	)
 	(wire
 		(pts
@@ -21785,6 +21514,16 @@
 	)
 	(wire
 		(pts
+			(xy 285.115 118.11) (xy 285.115 131.445)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "eabac7f0-40b4-4f3d-9451-5281673c9689")
+	)
+	(wire
+		(pts
 			(xy 151.13 46.99) (xy 165.1 46.99)
 		)
 		(stroke
@@ -22074,16 +21813,6 @@
 			(type default)
 		)
 		(uuid "f30c2190-c3a2-4050-a581-736297b23d37")
-	)
-	(wire
-		(pts
-			(xy 346.075 171.45) (xy 346.075 173.99)
-		)
-		(stroke
-			(width 0)
-			(type solid)
-		)
-		(uuid "f3318dbc-c619-4957-bdb5-81b9c10d64b7")
 	)
 	(wire
 		(pts
@@ -22812,17 +22541,6 @@
 		)
 		(uuid "1566622c-70a9-4d8b-a83d-27a769c7c917")
 	)
-	(label "SD_PWR"
-		(at 285.115 131.445 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "167f3351-e748-4d12-a8eb-013ceea62651")
-	)
 	(label "SD_CLK"
 		(at 307.975 133.985 0)
 		(fields_autoplaced yes)
@@ -23196,17 +22914,6 @@
 			(justify left bottom)
 		)
 		(uuid "66d274c6-630f-4d0d-868c-e007393b7a78")
-	)
-	(label "SD_PWR"
-		(at 314.96 173.99 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "6847a664-ac6b-4a5d-a195-90c959d51c38")
 	)
 	(label "DSI1_CLK_P"
 		(at 104.14 40.64 0)
@@ -23999,17 +23706,6 @@
 			(justify left bottom)
 		)
 		(uuid "f529b786-c2a8-47aa-a31e-46e18bbdf0c9")
-	)
-	(label "SD_PWR_ON"
-		(at 342.265 179.07 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "f66e8330-35e8-4405-9be3-a62f9b65753e")
 	)
 	(label "DSI1_PWM"
 		(at 18.415 161.29 0)
@@ -27662,73 +27358,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+3.3V")
-		(at 346.075 168.91 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "3977e6d2-89d3-4326-8516-acb7643d345d")
-		(property "Reference" "#PWR048"
-			(at 346.075 172.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+3V3"
-			(at 346.075 163.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 346.075 168.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 346.075 168.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 346.075 168.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "73b94c2f-69ae-4760-a959-c1528fcd5068")
-		)
-		(instances
-			(project "gbc-cm4-aio"
-				(path "/4dda0f32-68f6-467e-9c4a-af7e2b8a8793"
-					(reference "#PWR048")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_name "PintryParts-Symbols:APA2107SECK_1")
 		(lib_id "PintryParts-Symbols:APA2107SECK")
 		(at 240.03 119.38 0)
@@ -29333,6 +28962,73 @@
 			(project "gbc_retrozero_screen_rev_b"
 				(path "/8908c804-27f3-4434-82a5-2dafc38c4ee8"
 					(reference "D3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3.3V")
+		(at 285.115 118.11 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4eb4a095-5683-464e-b0d6-97f23ff3e87e")
+		(property "Reference" "#PWR062"
+			(at 285.115 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 285.115 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 285.115 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 285.115 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 285.115 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "231b97fc-19b7-43ef-a432-6ce51fd79dbc")
+		)
+		(instances
+			(project "gbc-cm4-aio"
+				(path "/4dda0f32-68f6-467e-9c4a-af7e2b8a8793"
+					(reference "#PWR062")
 					(unit 1)
 				)
 			)
@@ -31360,142 +31056,6 @@
 			(project "rpi-q5-adapter"
 				(path "/e618c82d-b530-40f1-81e4-eb7b21173688"
 					(reference "#PWR0133")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "CM4IO:RT9742GGJ5")
-		(at 332.74 184.15 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "6dc09c69-0ad9-46c3-9640-7f566dc4831b")
-		(property "Reference" "U3"
-			(at 331.47 167.259 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "RT9742GGJ5"
-			(at 331.47 169.5704 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-5"
-			(at 332.74 184.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.richtek.com/assets/product_file/RT9742/DS9742-00.pdf"
-			(at 332.74 184.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 332.74 184.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Field4" "Farnell"
-			(at 332.74 184.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Field5" "	2545875"
-			(at 332.74 184.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Field6" "RT9742GGJ5"
-			(at 332.74 184.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Field7" "RichTek"
-			(at 332.74 184.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Field8" "USWI00166"
-			(at 332.74 184.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part Description" "	Power Switch/Driver 1:1 N-Channel 1A TSOT-23-5"
-			(at 332.74 184.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "597457c2-608b-4b58-bedd-f5c3a274e0d2")
-		)
-		(pin "2"
-			(uuid "d49b8808-25db-4802-b0ba-379f12d824f5")
-		)
-		(pin "3"
-			(uuid "5363701a-b4d0-48c9-b759-01ac38c83891")
-		)
-		(pin "4"
-			(uuid "0f3e3aa6-2c09-439c-9287-16cc73e5e38e")
-		)
-		(pin "5"
-			(uuid "0e3898e0-0456-4e87-b1f2-3904d5e2ad39")
-		)
-		(instances
-			(project "gbc-cm4-aio"
-				(path "/4dda0f32-68f6-467e-9c4a-af7e2b8a8793"
-					(reference "U3")
-					(unit 1)
-				)
-			)
-			(project "MinCab"
-				(path "/bad99575-addb-4b0c-90c1-176ac3a4e3db"
-					(reference "U2")
 					(unit 1)
 				)
 			)
@@ -38827,77 +38387,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 314.96 176.53 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "c440919c-ce4a-4f61-a638-66ed4fc4c0f8")
-		(property "Reference" "#PWR057"
-			(at 314.96 182.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 315.087 180.9242 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 314.96 176.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 314.96 176.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 314.96 176.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "14408cc9-2f24-4a4e-8e2c-2ed3bcba9225")
-		)
-		(instances
-			(project "gbc-cm4-aio"
-				(path "/4dda0f32-68f6-467e-9c4a-af7e2b8a8793"
-					(reference "#PWR057")
-					(unit 1)
-				)
-			)
-			(project "MinCab"
-				(path "/bad99575-addb-4b0c-90c1-176ac3a4e3db"
-					(reference "#PWR013")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C")
 		(at 481.33 43.18 90)
 		(unit 1)
@@ -41435,126 +40924,6 @@
 			(project "gbc-cm4-aio"
 				(path "/4dda0f32-68f6-467e-9c4a-af7e2b8a8793"
 					(reference "#PWR0118")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 355.6 175.26 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "e53c17b2-bb38-4134-a7fd-165b54df0ae3")
-		(property "Reference" "R37"
-			(at 357.378 174.0916 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "12K 1%"
-			(at 357.378 176.403 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
-			(at 353.822 175.26 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://fscdn.rohm.com/en/products/databook/datasheet/passive/resistor/chip_resistor/mcr-e.pdf"
-			(at 355.6 175.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 355.6 175.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Field4" "Farnell"
-			(at 355.6 175.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Field5" "9239367"
-			(at 355.6 175.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Field7" "Rohm"
-			(at 355.6 175.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Field6" "MCR01MZPF1202"
-			(at 355.6 175.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part Description" "Resistor 12K M1005 1% 63mW"
-			(at 355.6 175.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "bee21184-c71c-44ec-958f-038be950cac7")
-		)
-		(pin "2"
-			(uuid "10fbd5fe-9ed9-40df-a4d0-5edcc41a8de5")
-		)
-		(instances
-			(project "gbc-cm4-aio"
-				(path "/4dda0f32-68f6-467e-9c4a-af7e2b8a8793"
-					(reference "R37")
-					(unit 1)
-				)
-			)
-			(project "MinCab"
-				(path "/bad99575-addb-4b0c-90c1-176ac3a4e3db"
-					(reference "R5")
 					(unit 1)
 				)
 			)
