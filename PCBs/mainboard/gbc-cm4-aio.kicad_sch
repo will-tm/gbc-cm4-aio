@@ -5954,6 +5954,467 @@
 				)
 			)
 		)
+		(symbol "LED:WS2812B"
+			(pin_names
+				(offset 0.254)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "D11"
+				(at 5.715 7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "WS2812B"
+				(at 6.35 -7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "LED_SMD:LED_WS2812B-2020_PLCC4_2.0x2.0mm"
+				(at 1.27 -7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf"
+				(at 2.54 -9.525 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Description" "RGB LED with integrated controller"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "RGB LED NeoPixel addressable"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "LED*WS2812*PLCC*5.0x5.0mm*P3.2mm*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "WS2812B_0_0"
+				(text "RGB"
+					(at 2.286 -4.191 0)
+					(effects
+						(font
+							(size 0.762 0.762)
+						)
+					)
+				)
+			)
+			(symbol "WS2812B_0_1"
+				(polyline
+					(pts
+						(xy 1.27 -3.556) (xy 1.778 -3.556)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -2.54) (xy 1.778 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 4.699 -3.556) (xy 2.667 -3.556)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.286 -2.54) (xy 1.27 -3.556) (xy 1.27 -3.048)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.286 -1.524) (xy 1.27 -2.54) (xy 1.27 -2.032)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.683 -1.016) (xy 3.683 -3.556) (xy 3.683 -4.064)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 4.699 -1.524) (xy 2.667 -1.524) (xy 3.683 -3.556) (xy 4.699 -1.524)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 5.08 5.08)
+					(end -5.08 -5.08)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+			)
+			(symbol "WS2812B_1_1"
+				(pin input line
+					(at -7.62 0 0)
+					(length 2.54)
+					(name "DIN"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 0 7.62 270)
+					(length 2.54)
+					(name "VDD"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 7.62 0 180)
+					(length 2.54)
+					(name "DOUT"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 0 -7.62 90)
+					(length 2.54)
+					(name "VSS"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "Logic_LevelTranslator:SN74LV1T34DCK"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at 5.08 6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "SN74LV1T34DCK"
+				(at 5.08 3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "Package_TO_SOT_SMD:SOT-353_SC-70-5"
+				(at 20.32 -6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.ti.com/lit/ds/symlink/sn74lv1t34.pdf"
+				(at -10.16 -5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Single Power Supply, Single Buffer GATE, CMOS Logic, Level Shifter, SOT-353"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "single buffer level shift"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "SOT?353*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "SN74LV1T34DCK_0_1"
+				(rectangle
+					(start -5.08 5.08)
+					(end 5.08 -5.08)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.762 0) (xy -2.54 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.016 0) (xy 2.54 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "SN74LV1T34DCK_1_1"
+				(polyline
+					(pts
+						(xy -0.762 -0.762) (xy -0.762 0.762) (xy 1.016 0) (xy -0.762 -0.762)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin no_connect line
+					(at -5.08 2.54 0)
+					(length 2.54) hide
+					(name "NC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -7.62 0 0)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 0 -7.62 90)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 7.62 0 180)
+					(length 2.54)
+					(name "Y"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 0 7.62 270)
+					(length 2.54)
+					(name "VCC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "PintryParts-Symbols:865080443007"
 			(pin_numbers hide)
 			(pin_names
@@ -15385,6 +15846,26 @@
 		)
 		(uuid "05646816-be97-4ba0-ab56-2105ba55cff3")
 	)
+	(wire
+		(pts
+			(xy 500.38 283.845) (xy 500.38 276.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "062a9f54-a71f-4081-815d-54fffa571858")
+	)
+	(wire
+		(pts
+			(xy 372.11 283.845) (xy 372.11 276.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "068a4d16-4f2c-4658-947d-afcff9153a62")
+	)
 	(polyline
 		(pts
 			(xy 147.955 185.42) (xy 147.955 350.52)
@@ -15637,6 +16118,17 @@
 		)
 		(uuid "0e4e75ca-b0ea-49df-a47b-7de0105a07b4")
 	)
+	(polyline
+		(pts
+			(xy 576.58 266.065) (xy 576.58 317.5)
+		)
+		(stroke
+			(width 0.3)
+			(type dash)
+			(color 132 0 0 1)
+		)
+		(uuid "0eb39c14-7a0e-4361-88b2-115d9e4edc2e")
+	)
 	(wire
 		(pts
 			(xy 372.11 27.94) (xy 372.11 30.48)
@@ -15873,6 +16365,16 @@
 	)
 	(wire
 		(pts
+			(xy 524.51 291.465) (xy 523.875 291.465)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "157d5c46-4883-4e63-9bf9-fad51e30bee8")
+	)
+	(wire
+		(pts
 			(xy 485.14 253.365) (xy 485.14 250.19)
 		)
 		(stroke
@@ -15930,6 +16432,16 @@
 			(type default)
 		)
 		(uuid "1817abb8-62dd-452c-bc0f-2302f56798fe")
+	)
+	(wire
+		(pts
+			(xy 403.86 283.845) (xy 403.86 276.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1825a903-2357-448c-85ea-ce1a5f89b314")
 	)
 	(wire
 		(pts
@@ -16497,6 +17009,16 @@
 	)
 	(wire
 		(pts
+			(xy 436.245 309.245) (xy 436.245 299.085)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "294d189e-c31f-435d-9d01-b2af05800696")
+	)
+	(wire
+		(pts
 			(xy 412.75 121.92) (xy 412.75 127)
 		)
 		(stroke
@@ -16852,6 +17374,16 @@
 	)
 	(wire
 		(pts
+			(xy 491.49 291.465) (xy 492.76 291.465)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "36af3687-b513-4d3a-a8c3-48f1fc8d4e7c")
+	)
+	(wire
+		(pts
 			(xy 514.35 244.475) (xy 525.145 244.475)
 		)
 		(stroke
@@ -16900,6 +17432,16 @@
 			(type default)
 		)
 		(uuid "3760dfe7-c0d4-4c15-9dd1-2b543ec308fa")
+	)
+	(wire
+		(pts
+			(xy 412.115 291.465) (xy 411.48 291.465)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "382c9904-6ed1-430f-850e-50f3aa4a5dc2")
 	)
 	(wire
 		(pts
@@ -17013,6 +17555,16 @@
 	)
 	(wire
 		(pts
+			(xy 387.985 283.845) (xy 387.985 276.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3be9ed3a-aafb-4d5d-a6cd-8cf035b0f668")
+	)
+	(wire
+		(pts
 			(xy 257.175 257.81) (xy 257.175 270.51)
 		)
 		(stroke
@@ -17040,6 +17592,16 @@
 			(type solid)
 		)
 		(uuid "3efbb7a9-38bc-47b6-8e55-8da6ae364cf8")
+	)
+	(wire
+		(pts
+			(xy 483.87 309.245) (xy 483.87 299.085)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3f098fd5-0367-4c8b-a2d0-c9c340035f62")
 	)
 	(wire
 		(pts
@@ -17081,6 +17643,16 @@
 			(type default)
 		)
 		(uuid "414226a5-3aa4-4b94-93fd-54c092fb8b66")
+	)
+	(wire
+		(pts
+			(xy 500.38 309.245) (xy 500.38 299.085)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "416707eb-2e88-4c6f-b013-f3f36e978534")
 	)
 	(wire
 		(pts
@@ -17274,6 +17846,16 @@
 	)
 	(wire
 		(pts
+			(xy 444.5 291.465) (xy 443.865 291.465)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "46237186-03dc-4b06-a507-a33036e4d4b6")
+	)
+	(wire
+		(pts
 			(xy 116.205 81.28) (xy 104.14 81.28)
 		)
 		(stroke
@@ -17281,6 +17863,17 @@
 			(type default)
 		)
 		(uuid "467cb435-6ff4-43e3-9d3f-06b74e4d47b8")
+	)
+	(polyline
+		(pts
+			(xy 298.45 264.795) (xy 576.58 266.065)
+		)
+		(stroke
+			(width 0.3)
+			(type dash)
+			(color 132 0 0 1)
+		)
+		(uuid "46ca98e0-3113-4af0-881f-76cb84357ff4")
 	)
 	(wire
 		(pts
@@ -17366,6 +17959,26 @@
 	)
 	(wire
 		(pts
+			(xy 372.11 309.245) (xy 372.11 299.085)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "498c067e-6166-4857-966c-f2176225633b")
+	)
+	(wire
+		(pts
+			(xy 387.985 309.245) (xy 387.985 299.085)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "49f0b34e-ae4d-420b-83fa-62622d737360")
+	)
+	(wire
+		(pts
 			(xy 60.96 160.02) (xy 60.96 168.91)
 		)
 		(stroke
@@ -17373,6 +17986,16 @@
 			(type default)
 		)
 		(uuid "4a4b7781-9697-41ff-a0c0-a07cfaa6e5e4")
+	)
+	(wire
+		(pts
+			(xy 352.425 309.245) (xy 352.425 299.085)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4a717412-41ac-4370-964f-773f9f470736")
 	)
 	(wire
 		(pts
@@ -18150,6 +18773,16 @@
 	)
 	(wire
 		(pts
+			(xy 516.255 283.845) (xy 516.255 276.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6716100a-4f1b-4767-af9b-5bc898b74b94")
+	)
+	(wire
+		(pts
 			(xy 474.345 253.365) (xy 474.345 245.11)
 		)
 		(stroke
@@ -18490,6 +19123,16 @@
 	)
 	(wire
 		(pts
+			(xy 436.245 283.845) (xy 436.245 276.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "73121c8d-60e3-415b-8108-f3fb835d7602")
+	)
+	(wire
+		(pts
 			(xy 120.65 68.58) (xy 118.745 68.58)
 		)
 		(stroke
@@ -18597,6 +19240,16 @@
 			(type default)
 		)
 		(uuid "77df8816-4dbd-4d41-8a08-05a5f515663c")
+	)
+	(wire
+		(pts
+			(xy 419.735 283.845) (xy 419.735 276.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "78e3ec7f-d4a6-40ac-ac63-00c00ea1d7c5")
 	)
 	(wire
 		(pts
@@ -18750,6 +19403,16 @@
 	)
 	(wire
 		(pts
+			(xy 483.87 283.845) (xy 483.87 276.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7f47b1b7-0b84-4094-a895-3c3297569b3d")
+	)
+	(wire
+		(pts
 			(xy 171.45 167.005) (xy 171.45 164.465)
 		)
 		(stroke
@@ -18789,6 +19452,16 @@
 			(color 132 0 0 1)
 		)
 		(uuid "80ce14e7-22d0-4d34-9f61-a2e9ba36feb1")
+	)
+	(wire
+		(pts
+			(xy 452.12 283.845) (xy 452.12 276.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8138ee03-9e12-4bc1-9155-ce0e8f31c2fc")
 	)
 	(wire
 		(pts
@@ -18862,6 +19535,16 @@
 	)
 	(wire
 		(pts
+			(xy 321.31 291.465) (xy 344.805 291.465)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "837a7eb9-730d-4dac-ba5b-d8072f021815")
+	)
+	(wire
+		(pts
 			(xy 288.29 63.5) (xy 288.29 64.77)
 		)
 		(stroke
@@ -18869,6 +19552,16 @@
 			(type default)
 		)
 		(uuid "83d6dea5-b659-4e04-89d7-0a5078ac72b7")
+	)
+	(wire
+		(pts
+			(xy 427.355 291.465) (xy 428.625 291.465)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "847f944b-6f07-4379-8a35-ee53a41070af")
 	)
 	(wire
 		(pts
@@ -19276,6 +19969,16 @@
 	)
 	(wire
 		(pts
+			(xy 175.895 275.59) (xy 193.675 275.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9343209d-6678-4661-9836-2d1ee817f34e")
+	)
+	(wire
+		(pts
 			(xy 104.14 58.42) (xy 120.65 58.42)
 		)
 		(stroke
@@ -19387,6 +20090,16 @@
 	)
 	(wire
 		(pts
+			(xy 516.255 309.245) (xy 516.255 299.085)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "97d61eca-7d5e-48d0-b5d3-e924b27c56fc")
+	)
+	(wire
+		(pts
 			(xy 492.76 86.36) (xy 492.76 88.9)
 		)
 		(stroke
@@ -19486,6 +20199,16 @@
 			(type default)
 		)
 		(uuid "9a0fac95-902c-4e58-97ec-751b7d5f0dff")
+	)
+	(wire
+		(pts
+			(xy 467.995 283.845) (xy 467.995 276.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9addea34-a631-4d5c-ae46-b1ea9caffe6b")
 	)
 	(wire
 		(pts
@@ -19662,6 +20385,16 @@
 	)
 	(wire
 		(pts
+			(xy 467.995 309.245) (xy 467.995 299.085)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9f14bd09-7a5e-4c8e-802b-264cf17b47f6")
+	)
+	(wire
+		(pts
 			(xy 116.205 106.68) (xy 116.205 104.14)
 		)
 		(stroke
@@ -19672,6 +20405,16 @@
 	)
 	(wire
 		(pts
+			(xy 508.635 291.465) (xy 508 291.465)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9f684d5e-847e-4dc3-9c87-3abb833b1a9f")
+	)
+	(wire
+		(pts
 			(xy 111.125 321.31) (xy 127.635 321.31)
 		)
 		(stroke
@@ -19679,6 +20422,16 @@
 			(type default)
 		)
 		(uuid "9fe2bd1f-ab4e-493d-9e41-dab646f9512d")
+	)
+	(wire
+		(pts
+			(xy 380.365 291.465) (xy 379.73 291.465)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a01a0028-3d40-443c-8623-cd622fe3d308")
 	)
 	(wire
 		(pts
@@ -20360,6 +21113,16 @@
 	)
 	(wire
 		(pts
+			(xy 452.12 309.245) (xy 452.12 299.085)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b722474b-a7b7-4a30-aba6-6b09da833440")
+	)
+	(wire
+		(pts
 			(xy 47.625 311.15) (xy 47.625 318.77)
 		)
 		(stroke
@@ -20427,6 +21190,16 @@
 			(type default)
 		)
 		(uuid "bb4dcd29-12f8-47f2-a3b7-119d0f00dc82")
+	)
+	(wire
+		(pts
+			(xy 460.375 291.465) (xy 459.74 291.465)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bbfd9846-b715-4f34-bea7-77cc83fbb5ee")
 	)
 	(wire
 		(pts
@@ -20560,6 +21333,16 @@
 	)
 	(wire
 		(pts
+			(xy 476.25 291.465) (xy 475.615 291.465)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c6e28948-75b0-4dd0-9b52-01517783a95f")
+	)
+	(wire
+		(pts
 			(xy 532.13 211.455) (xy 546.1 211.455)
 		)
 		(stroke
@@ -20637,6 +21420,16 @@
 			(type default)
 		)
 		(uuid "cb9e5715-6703-4200-b547-f7956479a9ac")
+	)
+	(wire
+		(pts
+			(xy 532.13 309.245) (xy 532.13 299.085)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cbbd0b08-da85-42dc-81f2-2724fd9fd202")
 	)
 	(wire
 		(pts
@@ -21092,6 +21885,16 @@
 	)
 	(wire
 		(pts
+			(xy 360.045 291.465) (xy 364.49 291.465)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dbe281ec-b95a-489a-bf5a-3abf1ee021d5")
+	)
+	(wire
+		(pts
 			(xy 120.65 73.66) (xy 116.205 73.66)
 		)
 		(stroke
@@ -21174,6 +21977,16 @@
 	)
 	(wire
 		(pts
+			(xy 403.86 309.245) (xy 403.86 299.085)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "deb620bb-5c92-476b-aebd-f6528ac6c65f")
+	)
+	(wire
+		(pts
 			(xy 405.13 213.36) (xy 406.4 213.36)
 		)
 		(stroke
@@ -21201,6 +22014,16 @@
 			(type default)
 		)
 		(uuid "dfb1469a-448a-4580-a08c-13ff6c5bb243")
+	)
+	(wire
+		(pts
+			(xy 396.24 291.465) (xy 395.605 291.465)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e06902fa-6c6d-4335-b63f-ea48fa9a56d7")
 	)
 	(wire
 		(pts
@@ -21274,6 +22097,16 @@
 	)
 	(wire
 		(pts
+			(xy 419.735 309.245) (xy 419.735 299.085)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e2fcb0a3-a1dd-432a-af88-584d822dd536")
+	)
+	(wire
+		(pts
 			(xy 298.45 55.88) (xy 308.61 55.88)
 		)
 		(stroke
@@ -21301,16 +22134,6 @@
 			(type solid)
 		)
 		(uuid "e4a44b31-754a-44c0-8602-7d6407568979")
-	)
-	(wire
-		(pts
-			(xy 111.125 214.63) (xy 117.475 214.63)
-		)
-		(stroke
-			(width 0)
-			(type solid)
-		)
-		(uuid "e4d1e802-99e1-46c2-888c-1b0169e51dee")
 	)
 	(wire
 		(pts
@@ -21411,6 +22234,17 @@
 			(type solid)
 		)
 		(uuid "e69ec658-8aab-4d40-8cc0-e62a4ed3c6f2")
+	)
+	(polyline
+		(pts
+			(xy 298.45 264.795) (xy 298.45 316.23)
+		)
+		(stroke
+			(width 0.3)
+			(type dash)
+			(color 132 0 0 1)
+		)
+		(uuid "e6a90fc2-9efe-4cc5-8bba-e7bf384b3d15")
 	)
 	(wire
 		(pts
@@ -21806,6 +22640,16 @@
 	)
 	(wire
 		(pts
+			(xy 352.425 283.845) (xy 352.425 276.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f2ff6d84-866d-4f74-b267-84ef296ce948")
+	)
+	(wire
+		(pts
 			(xy 356.87 50.8) (xy 356.87 53.34)
 		)
 		(stroke
@@ -21854,6 +22698,17 @@
 			(color 132 0 0 1)
 		)
 		(uuid "f3b4a360-09f7-445d-a27d-884a589c5a42")
+	)
+	(polyline
+		(pts
+			(xy 576.58 317.5) (xy 298.45 316.23)
+		)
+		(stroke
+			(width 0.3)
+			(type dash)
+			(color 132 0 0 1)
+		)
+		(uuid "f3fd239c-17c7-4cad-afd3-d86ca0f4c182")
 	)
 	(wire
 		(pts
@@ -21936,6 +22791,16 @@
 			(type solid)
 		)
 		(uuid "f638ae04-33c1-4f15-8831-d9b4479964aa")
+	)
+	(wire
+		(pts
+			(xy 532.13 283.845) (xy 532.13 276.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f6f02176-7092-4234-ad6a-2b83eff9af99")
 	)
 	(wire
 		(pts
@@ -22199,6 +23064,17 @@
 			(type none)
 		)
 		(uuid 4b3d817d-b9eb-436c-ad17-ea50b6cd3499)
+	)
+	(text "RGB Backlight"
+		(exclude_from_sim no)
+		(at 304.038 272.796 0)
+		(effects
+			(font
+				(size 2 2)
+			)
+			(justify left bottom)
+		)
+		(uuid "0b74dfe9-d400-4b73-8379-57d1a03d16c3")
 	)
 	(text "Power Path"
 		(exclude_from_sim no)
@@ -22816,6 +23692,17 @@
 		)
 		(uuid "5759d167-1416-4542-afa9-7401a57ff9bd")
 	)
+	(label "WS2812B"
+		(at 321.31 291.465 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "59f9506d-44a1-4f26-888e-841d17dfa3a4")
+	)
 	(label "VIN"
 		(at 466.09 128.27 0)
 		(fields_autoplaced yes)
@@ -22969,6 +23856,17 @@
 			(justify left bottom)
 		)
 		(uuid "70bd4dec-633a-4f63-a01e-12d6c633523d")
+	)
+	(label "WS2812B"
+		(at 175.895 275.59 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "71b2db2c-0c99-437c-95fd-21373f8b9ca9")
 	)
 	(label "VBAT"
 		(at 299.72 213.995 0)
@@ -24201,6 +25099,81 @@
 		)
 	)
 	(symbol
+		(lib_id "LED:WS2812B")
+		(at 372.11 291.465 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "07282fe3-b863-4285-afc2-7d4a058ffac3")
+		(property "Reference" "D2"
+			(at 377.825 283.845 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "WS2812B"
+			(at 378.46 299.085 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_WS2812B-2020_PLCC4_2.0x2.0mm"
+			(at 373.38 299.085 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf"
+			(at 374.65 300.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 372.11 291.465 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "3f8e6761-4b16-4297-aa94-f8bf5b98a07c")
+		)
+		(pin "3"
+			(uuid "b88da08d-522d-44d3-95a2-3af3e3410356")
+		)
+		(pin "4"
+			(uuid "5f824c2a-40bf-476a-92a6-b565b279d870")
+		)
+		(pin "1"
+			(uuid "a0e9868d-6a14-4d8c-b5c6-bde6ba8778b6")
+		)
+		(instances
+			(project "gbc-cm4-aio"
+				(path "/4dda0f32-68f6-467e-9c4a-af7e2b8a8793"
+					(reference "D2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Connector:TestPoint")
 		(at 551.18 50.8 270)
 		(unit 1)
@@ -24739,6 +25712,71 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+5V")
+		(at 452.12 276.86 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "0cee6c20-517e-4da0-b73e-7ec1ae7ff4a9")
+		(property "Reference" "#PWR071"
+			(at 452.12 280.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 453.39 272.415 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 452.12 276.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 452.12 276.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 452.12 276.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9871f0b7-043a-485f-afb8-63c2e0719d48")
+		)
+		(instances
+			(project "gbc-cm4-aio"
+				(path "/4dda0f32-68f6-467e-9c4a-af7e2b8a8793"
+					(reference "#PWR071")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 67.945 95.25 0)
 		(unit 1)
@@ -25069,6 +26107,71 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+5V")
+		(at 352.425 276.86 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "1076fd90-36f5-4e64-b93b-a28bbdcd06fb")
+		(property "Reference" "#PWR084"
+			(at 352.425 280.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 353.695 272.415 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 352.425 276.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 352.425 276.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 352.425 276.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "6071b033-b2c0-4d1e-810f-1d7ac4a27f4a")
+		)
+		(instances
+			(project "gbc-cm4-aio"
+				(path "/4dda0f32-68f6-467e-9c4a-af7e2b8a8793"
+					(reference "#PWR084")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 534.035 244.475 90)
 		(unit 1)
@@ -25134,6 +26237,146 @@
 			(project "gbc-cm4-aio"
 				(path "/4dda0f32-68f6-467e-9c4a-af7e2b8a8793"
 					(reference "#PWR059")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 372.11 276.86 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "12a26208-9657-42d2-836b-5a31719507ba")
+		(property "Reference" "#PWR048"
+			(at 372.11 280.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 373.38 272.415 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 372.11 276.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 372.11 276.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 372.11 276.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a30cf178-fd2b-4861-9346-ca38cf9ac931")
+		)
+		(instances
+			(project "gbc-cm4-aio"
+				(path "/4dda0f32-68f6-467e-9c4a-af7e2b8a8793"
+					(reference "#PWR048")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "LED:WS2812B")
+		(at 516.255 291.465 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "12a956b2-87a1-47c8-bfeb-fe973b21134f")
+		(property "Reference" "D20"
+			(at 521.97 283.845 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "WS2812B"
+			(at 522.605 299.085 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_WS2812B-2020_PLCC4_2.0x2.0mm"
+			(at 517.525 299.085 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf"
+			(at 518.795 300.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 516.255 291.465 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "ed95bf6e-ca08-4b74-ba9f-04d8905e3c36")
+		)
+		(pin "3"
+			(uuid "f17cd04d-2818-406a-acb4-e119049976d8")
+		)
+		(pin "4"
+			(uuid "bd406188-fa9e-45ad-a981-c44218efc64e")
+		)
+		(pin "1"
+			(uuid "6388d6d2-65a8-40e6-a75e-38ea840f9793")
+		)
+		(instances
+			(project "gbc-cm4-aio"
+				(path "/4dda0f32-68f6-467e-9c4a-af7e2b8a8793"
+					(reference "D20")
 					(unit 1)
 				)
 			)
@@ -25483,6 +26726,71 @@
 			(project "gbc-cm4-aio"
 				(path "/4dda0f32-68f6-467e-9c4a-af7e2b8a8793"
 					(reference "R13")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 516.255 276.86 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "1bee9500-6a6f-4c15-a734-b8e88d9c3e55")
+		(property "Reference" "#PWR079"
+			(at 516.255 280.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 517.525 272.415 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 516.255 276.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 516.255 276.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 516.255 276.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b8d6dec6-bc88-4717-8818-d1bc132fe53d")
+		)
+		(instances
+			(project "gbc-cm4-aio"
+				(path "/4dda0f32-68f6-467e-9c4a-af7e2b8a8793"
+					(reference "#PWR079")
 					(unit 1)
 				)
 			)
@@ -26416,6 +27724,71 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+5V")
+		(at 387.985 276.86 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "29549d95-0727-4ebe-b8f5-6ac965242b2b")
+		(property "Reference" "#PWR063"
+			(at 387.985 280.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 389.255 272.415 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 387.985 276.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 387.985 276.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 387.985 276.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7689b9b0-1658-42d3-ba43-4434cdb3d4f3")
+		)
+		(instances
+			(project "gbc-cm4-aio"
+				(path "/4dda0f32-68f6-467e-9c4a-af7e2b8a8793"
+					(reference "#PWR063")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:-5V")
 		(at 106.68 101.6 90)
 		(unit 1)
@@ -26674,6 +28047,71 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+5V")
+		(at 532.13 276.86 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "2e60846d-4461-41db-a040-38099096d45e")
+		(property "Reference" "#PWR081"
+			(at 532.13 280.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 533.4 272.415 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 532.13 276.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 532.13 276.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 532.13 276.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2b3edf7f-d0cc-4b4a-9c87-85c28040c55a")
+		)
+		(instances
+			(project "gbc-cm4-aio"
+				(path "/4dda0f32-68f6-467e-9c4a-af7e2b8a8793"
+					(reference "#PWR081")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+BATT")
 		(at 485.14 208.915 0)
 		(unit 1)
@@ -26802,6 +28240,81 @@
 			(project "gbc-cm4-aio"
 				(path "/4dda0f32-68f6-467e-9c4a-af7e2b8a8793"
 					(reference "R10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "LED:WS2812B")
+		(at 500.38 291.465 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "3208c3cf-7e16-4b30-b6b5-b816bcc2bab5")
+		(property "Reference" "D19"
+			(at 506.095 283.845 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "WS2812B"
+			(at 506.73 299.085 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_WS2812B-2020_PLCC4_2.0x2.0mm"
+			(at 501.65 299.085 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf"
+			(at 502.92 300.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 500.38 291.465 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "91fb5b9d-5143-49b4-9bd5-6c8f58be9d2a")
+		)
+		(pin "3"
+			(uuid "64551d29-76c0-448f-a426-035f8f060c14")
+		)
+		(pin "4"
+			(uuid "be5d502e-e4eb-4860-ac62-2832e98174ad")
+		)
+		(pin "1"
+			(uuid "ded12f01-bdb0-43e1-b913-84fcdc64a07e")
+		)
+		(instances
+			(project "gbc-cm4-aio"
+				(path "/4dda0f32-68f6-467e-9c4a-af7e2b8a8793"
+					(reference "D19")
 					(unit 1)
 				)
 			)
@@ -27085,6 +28598,81 @@
 		)
 	)
 	(symbol
+		(lib_id "LED:WS2812B")
+		(at 467.995 291.465 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "33f0c540-959a-4f8c-9b2f-2a2b89771d1b")
+		(property "Reference" "D17"
+			(at 473.71 283.845 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "WS2812B"
+			(at 474.345 299.085 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_WS2812B-2020_PLCC4_2.0x2.0mm"
+			(at 469.265 299.085 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf"
+			(at 470.535 300.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 467.995 291.465 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "5c27ae58-48c5-4a13-a35b-ae4160576e47")
+		)
+		(pin "3"
+			(uuid "1a3469b5-0e73-4819-bba5-795f9bcefc85")
+		)
+		(pin "4"
+			(uuid "bf696a8a-fdb3-441d-979f-3cbaff42e76f")
+		)
+		(pin "1"
+			(uuid "772b03b6-4c12-4598-9835-9e5e54774375")
+		)
+		(instances
+			(project "gbc-cm4-aio"
+				(path "/4dda0f32-68f6-467e-9c4a-af7e2b8a8793"
+					(reference "D17")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+3.3V")
 		(at 422.91 118.11 0)
 		(unit 1)
@@ -27151,6 +28739,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 436.245 309.245 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3597ed38-297d-4521-b823-98dd518b37e9")
+		(property "Reference" "#PWR070"
+			(at 436.245 315.595 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 436.245 313.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 436.245 309.245 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 436.245 309.245 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 436.245 309.245 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "3384f1a8-6d5c-4a32-aee2-a59a4ad3895c")
+		)
+		(instances
+			(project "gbc-cm4-aio"
+				(path "/4dda0f32-68f6-467e-9c4a-af7e2b8a8793"
+					(reference "#PWR070")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GNDA")
 		(at 522.605 88.9 0)
 		(unit 1)
@@ -27211,6 +28865,81 @@
 			(project "gbc-cm4-aio"
 				(path "/4dda0f32-68f6-467e-9c4a-af7e2b8a8793"
 					(reference "#PWR0160")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "LED:WS2812B")
+		(at 436.245 291.465 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "36642910-dffb-4f94-829a-880eb15bc762")
+		(property "Reference" "D15"
+			(at 441.96 283.845 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "WS2812B"
+			(at 442.595 299.085 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_WS2812B-2020_PLCC4_2.0x2.0mm"
+			(at 437.515 299.085 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf"
+			(at 438.785 300.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 436.245 291.465 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "1d7a89d9-78f9-4657-b27d-972ee11e7278")
+		)
+		(pin "3"
+			(uuid "e0a138f9-cf77-4963-b484-51a2193e0056")
+		)
+		(pin "4"
+			(uuid "a473ff8b-33ed-4386-877d-b94b59704a6c")
+		)
+		(pin "1"
+			(uuid "6db44fc7-9c93-46f3-8b28-628cc22b33f8")
+		)
+		(instances
+			(project "gbc-cm4-aio"
+				(path "/4dda0f32-68f6-467e-9c4a-af7e2b8a8793"
+					(reference "D15")
 					(unit 1)
 				)
 			)
@@ -27731,6 +29460,72 @@
 			(project "rpi-q5-adapter"
 				(path "/e618c82d-b530-40f1-81e4-eb7b21173688"
 					(reference "R3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 467.995 309.245 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3ef9e799-d79c-44ad-a65a-f04bece07bc7")
+		(property "Reference" "#PWR074"
+			(at 467.995 315.595 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 467.995 313.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 467.995 309.245 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 467.995 309.245 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 467.995 309.245 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e483f3a2-6ece-4639-9607-e18c8505812b")
+		)
+		(instances
+			(project "gbc-cm4-aio"
+				(path "/4dda0f32-68f6-467e-9c4a-af7e2b8a8793"
+					(reference "#PWR074")
 					(unit 1)
 				)
 			)
@@ -28877,6 +30672,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 372.11 309.245 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4bc3234d-94cd-4cd7-9903-56f7afd7da14")
+		(property "Reference" "#PWR057"
+			(at 372.11 315.595 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 372.11 313.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 372.11 309.245 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 372.11 309.245 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 372.11 309.245 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "990b0cca-6323-48b4-b8dc-51b6c62e81f4")
+		)
+		(instances
+			(project "gbc-cm4-aio"
+				(path "/4dda0f32-68f6-467e-9c4a-af7e2b8a8793"
+					(reference "#PWR057")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:LED")
 		(at 402.59 228.6 0)
 		(mirror y)
@@ -29117,6 +30978,71 @@
 			(project "gbc-cm4-aio"
 				(path "/4dda0f32-68f6-467e-9c4a-af7e2b8a8793"
 					(reference "R34")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 500.38 276.86 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "4f7a7f2a-3720-4925-bf15-93a424fc748b")
+		(property "Reference" "#PWR077"
+			(at 500.38 280.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 501.65 272.415 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 500.38 276.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 500.38 276.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 500.38 276.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "8ccd7c8b-7abf-4b86-aab0-9adde7a80bd7")
+		)
+		(instances
+			(project "gbc-cm4-aio"
+				(path "/4dda0f32-68f6-467e-9c4a-af7e2b8a8793"
+					(reference "#PWR077")
 					(unit 1)
 				)
 			)
@@ -29622,6 +31548,72 @@
 	)
 	(symbol
 		(lib_id "power:GND")
+		(at 483.87 309.245 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5974a9f9-a9f8-481f-8c58-5bdc9805fa56")
+		(property "Reference" "#PWR076"
+			(at 483.87 315.595 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 483.87 313.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 483.87 309.245 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 483.87 309.245 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 483.87 309.245 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e426b67c-673f-45df-8533-2d0559a30970")
+		)
+		(instances
+			(project "gbc-cm4-aio"
+				(path "/4dda0f32-68f6-467e-9c4a-af7e2b8a8793"
+					(reference "#PWR076")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
 		(at 285.115 149.225 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -29844,6 +31836,71 @@
 			(project "gbc_retrozero_screen_rev_b"
 				(path "/8908c804-27f3-4434-82a5-2dafc38c4ee8"
 					(reference "#PWR012")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 483.87 276.86 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "5c6782d2-420a-4a24-a81e-d53f141d60bf")
+		(property "Reference" "#PWR075"
+			(at 483.87 280.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 485.14 272.415 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 483.87 276.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 483.87 276.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 483.87 276.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "313e5a87-ca40-434e-9bb6-2837b07ecbd9")
+		)
+		(instances
+			(project "gbc-cm4-aio"
+				(path "/4dda0f32-68f6-467e-9c4a-af7e2b8a8793"
+					(reference "#PWR075")
 					(unit 1)
 				)
 			)
@@ -30421,6 +32478,81 @@
 		)
 	)
 	(symbol
+		(lib_id "LED:WS2812B")
+		(at 403.86 291.465 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "65607f9d-2a80-4c56-bdeb-c3c62451c81e")
+		(property "Reference" "D13"
+			(at 409.575 283.845 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "WS2812B"
+			(at 410.21 299.085 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_WS2812B-2020_PLCC4_2.0x2.0mm"
+			(at 405.13 299.085 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf"
+			(at 406.4 300.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 403.86 291.465 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "514eb212-aa41-4381-9b79-dfb7306c9d7a")
+		)
+		(pin "3"
+			(uuid "11c65f36-5ec2-40d9-8b12-4c5a10eb10e1")
+		)
+		(pin "4"
+			(uuid "f3d36643-12e0-4d10-98cf-ac62f8284f27")
+		)
+		(pin "1"
+			(uuid "30697bb4-8d22-4cda-81bb-2bf4915a4ca8")
+		)
+		(instances
+			(project "gbc-cm4-aio"
+				(path "/4dda0f32-68f6-467e-9c4a-af7e2b8a8793"
+					(reference "D13")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+5V")
 		(at 277.495 295.91 0)
 		(unit 1)
@@ -30820,6 +32952,71 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+5V")
+		(at 419.735 276.86 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "6a716803-0916-47d8-a751-47dc7e29a3f8")
+		(property "Reference" "#PWR067"
+			(at 419.735 280.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 421.005 272.415 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 419.735 276.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 419.735 276.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 419.735 276.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b64ea564-4fb0-404c-a6b1-bb9c825cf17e")
+		)
+		(instances
+			(project "gbc-cm4-aio"
+				(path "/4dda0f32-68f6-467e-9c4a-af7e2b8a8793"
+					(reference "#PWR067")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R_US")
 		(at 411.48 40.64 270)
 		(unit 1)
@@ -31056,6 +33253,72 @@
 			(project "rpi-q5-adapter"
 				(path "/e618c82d-b530-40f1-81e4-eb7b21173688"
 					(reference "#PWR0133")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 403.86 309.245 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6e220c41-2f2f-43ca-87b4-3c06be2a81e5")
+		(property "Reference" "#PWR066"
+			(at 403.86 315.595 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 403.86 313.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 403.86 309.245 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 403.86 309.245 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 403.86 309.245 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "1c8b842b-dbbc-4627-a7ff-3f436a885a14")
+		)
+		(instances
+			(project "gbc-cm4-aio"
+				(path "/4dda0f32-68f6-467e-9c4a-af7e2b8a8793"
+					(reference "#PWR066")
 					(unit 1)
 				)
 			)
@@ -31814,6 +34077,138 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 500.38 309.245 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "747db8d9-417d-4ddd-9e32-720b30e51469")
+		(property "Reference" "#PWR078"
+			(at 500.38 315.595 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 500.38 313.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 500.38 309.245 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 500.38 309.245 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 500.38 309.245 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a7448053-fbed-416f-b89a-e303be89f762")
+		)
+		(instances
+			(project "gbc-cm4-aio"
+				(path "/4dda0f32-68f6-467e-9c4a-af7e2b8a8793"
+					(reference "#PWR078")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 452.12 309.245 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "767bbdee-7d5f-4780-91e5-b6b8e7ee21cf")
+		(property "Reference" "#PWR072"
+			(at 452.12 315.595 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 452.12 313.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 452.12 309.245 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 452.12 309.245 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 452.12 309.245 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "917d1ed9-40d8-476e-9f56-e92b1915fc90")
+		)
+		(instances
+			(project "gbc-cm4-aio"
+				(path "/4dda0f32-68f6-467e-9c4a-af7e2b8a8793"
+					(reference "#PWR072")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Switch:SW_SPDT")
 		(at 235.585 167.005 0)
 		(unit 1)
@@ -32017,6 +34412,72 @@
 			(project "gbc_retrozero_screen_rev_b"
 				(path "/8908c804-27f3-4434-82a5-2dafc38c4ee8"
 					(reference "#PWR012")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 516.255 309.245 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "780cb6e0-134d-4832-b459-3c24da982c6c")
+		(property "Reference" "#PWR080"
+			(at 516.255 315.595 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 516.255 313.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 516.255 309.245 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 516.255 309.245 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 516.255 309.245 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "582a04b4-8378-47f6-a43c-2ffc2305796b")
+		)
+		(instances
+			(project "gbc-cm4-aio"
+				(path "/4dda0f32-68f6-467e-9c4a-af7e2b8a8793"
+					(reference "#PWR080")
 					(unit 1)
 				)
 			)
@@ -33363,6 +35824,71 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+5V")
+		(at 436.245 276.86 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "8600f0f0-2cf4-441f-a902-b424caf39eb1")
+		(property "Reference" "#PWR069"
+			(at 436.245 280.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 437.515 272.415 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 436.245 276.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 436.245 276.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 436.245 276.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9dff921b-f2a1-4ed1-83f4-114fd28a5d5f")
+		)
+		(instances
+			(project "gbc-cm4-aio"
+				(path "/4dda0f32-68f6-467e-9c4a-af7e2b8a8793"
+					(reference "#PWR069")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C_Small")
 		(at 443.23 129.54 0)
 		(unit 1)
@@ -33744,6 +36270,147 @@
 			(project "gbc-cm4-aio"
 				(path "/4dda0f32-68f6-467e-9c4a-af7e2b8a8793"
 					(reference "C24")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 532.13 309.245 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8acd74a0-7392-4402-bffb-851e5f116e3d")
+		(property "Reference" "#PWR082"
+			(at 532.13 315.595 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 532.13 313.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 532.13 309.245 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 532.13 309.245 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 532.13 309.245 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "66a813c4-a51e-42e7-8848-ae3a55b60fe0")
+		)
+		(instances
+			(project "gbc-cm4-aio"
+				(path "/4dda0f32-68f6-467e-9c4a-af7e2b8a8793"
+					(reference "#PWR082")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "LED:WS2812B")
+		(at 387.985 291.465 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "8d873a39-e315-44af-b958-b3fb8bfce14b")
+		(property "Reference" "D12"
+			(at 393.7 283.845 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "WS2812B"
+			(at 394.335 299.085 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_WS2812B-2020_PLCC4_2.0x2.0mm"
+			(at 389.255 299.085 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf"
+			(at 390.525 300.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 387.985 291.465 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "4f10db16-2609-4703-adcf-a04947f9fbc0")
+		)
+		(pin "3"
+			(uuid "22906d04-b151-422a-9631-4905370fecf9")
+		)
+		(pin "4"
+			(uuid "2ae0eac1-a7d4-4afc-a8c9-b61756f91c1a")
+		)
+		(pin "1"
+			(uuid "d100c28d-b3ce-42d3-ab43-3c6a41d59f62")
+		)
+		(instances
+			(project "gbc-cm4-aio"
+				(path "/4dda0f32-68f6-467e-9c4a-af7e2b8a8793"
+					(reference "D12")
 					(unit 1)
 				)
 			)
@@ -34782,6 +37449,81 @@
 		)
 	)
 	(symbol
+		(lib_id "LED:WS2812B")
+		(at 483.87 291.465 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "929015e7-82a5-414c-89f1-2f7ff0e97567")
+		(property "Reference" "D18"
+			(at 489.585 283.845 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "WS2812B"
+			(at 490.22 299.085 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_WS2812B-2020_PLCC4_2.0x2.0mm"
+			(at 485.14 299.085 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf"
+			(at 486.41 300.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 483.87 291.465 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "ec497073-c0c3-43ee-8a1e-4cfb495de724")
+		)
+		(pin "3"
+			(uuid "8bb649fb-e04d-4988-9182-b00e9f6c2963")
+		)
+		(pin "4"
+			(uuid "ed630ddf-d194-4fe9-b11e-8fce7e6414d9")
+		)
+		(pin "1"
+			(uuid "bbf3c143-a5fe-479b-a5ee-3d8b16aed744")
+		)
+		(instances
+			(project "gbc-cm4-aio"
+				(path "/4dda0f32-68f6-467e-9c4a-af7e2b8a8793"
+					(reference "D18")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 467.995 247.015 0)
 		(unit 1)
@@ -35105,6 +37847,72 @@
 			(project "cm4-carrier-net"
 				(path "/50abbab9-83d6-41b0-a543-945d84e1d51d"
 					(reference "JP1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 419.735 309.245 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "98b50c0c-ae35-499f-b633-134a52700689")
+		(property "Reference" "#PWR068"
+			(at 419.735 315.595 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 419.735 313.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 419.735 309.245 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 419.735 309.245 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 419.735 309.245 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "60d3f17d-f632-47a5-a36a-de831d391f07")
+		)
+		(instances
+			(project "gbc-cm4-aio"
+				(path "/4dda0f32-68f6-467e-9c4a-af7e2b8a8793"
+					(reference "#PWR068")
 					(unit 1)
 				)
 			)
@@ -35558,6 +38366,137 @@
 			(project "gbc-cm4-aio"
 				(path "/4dda0f32-68f6-467e-9c4a-af7e2b8a8793"
 					(reference "C38")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 387.985 309.245 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9deb869d-18d0-403e-af9f-79a67ef2086e")
+		(property "Reference" "#PWR064"
+			(at 387.985 315.595 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 387.985 313.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 387.985 309.245 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 387.985 309.245 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 387.985 309.245 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "908d2642-4c42-4158-8632-5174a5464c3e")
+		)
+		(instances
+			(project "gbc-cm4-aio"
+				(path "/4dda0f32-68f6-467e-9c4a-af7e2b8a8793"
+					(reference "#PWR064")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 403.86 276.86 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "9ea67fb5-43dd-4455-9b23-21524a14a3ed")
+		(property "Reference" "#PWR065"
+			(at 403.86 280.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 405.13 272.415 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 403.86 276.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 403.86 276.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 403.86 276.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "dee14327-3887-4740-bc7f-1626f93d5f1f")
+		)
+		(instances
+			(project "gbc-cm4-aio"
+				(path "/4dda0f32-68f6-467e-9c4a-af7e2b8a8793"
+					(reference "#PWR065")
 					(unit 1)
 				)
 			)
@@ -36192,6 +39131,72 @@
 			(project "gbc_retrozero_screen_rev_b"
 				(path "/8908c804-27f3-4434-82a5-2dafc38c4ee8"
 					(reference "C7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 352.425 309.245 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a88689b4-0ba0-4937-b774-8d858019b69f")
+		(property "Reference" "#PWR083"
+			(at 352.425 315.595 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 352.425 313.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 352.425 309.245 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 352.425 309.245 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 352.425 309.245 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "1198ab74-3fd9-4cd8-8230-e4b5f360152b")
+		)
+		(instances
+			(project "gbc-cm4-aio"
+				(path "/4dda0f32-68f6-467e-9c4a-af7e2b8a8793"
+					(reference "#PWR083")
 					(unit 1)
 				)
 			)
@@ -37925,6 +40930,82 @@
 		)
 	)
 	(symbol
+		(lib_id "Logic_LevelTranslator:SN74LV1T34DCK")
+		(at 352.425 291.465 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "be3f711c-0fe3-4f64-9de7-32735bad124f")
+		(property "Reference" "U3"
+			(at 368.935 287.817 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SN74LV1T34DCK"
+			(at 342.392 298.958 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-353_SC-70-5"
+			(at 372.745 297.815 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/sn74lv1t34.pdf"
+			(at 342.265 296.545 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Single Power Supply, Single Buffer GATE, CMOS Logic, Level Shifter, SOT-353"
+			(at 352.425 291.465 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "4"
+			(uuid "eb3076ab-41ec-4c1a-aa3f-15595dad1fee")
+		)
+		(pin "2"
+			(uuid "701066de-5a82-4c44-b1f3-502abe5fe7ec")
+		)
+		(pin "1"
+			(uuid "96081d24-b83b-41e8-8763-583bedcbde26")
+		)
+		(pin "3"
+			(uuid "724b7719-16ce-49e0-b53a-a581a089b05d")
+		)
+		(pin "5"
+			(uuid "5d978eee-5e62-4497-bca8-18052c1d57b3")
+		)
+		(instances
+			(project "gbc-cm4-aio"
+				(path "/4dda0f32-68f6-467e-9c4a-af7e2b8a8793"
+					(reference "U3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R_US")
 		(at 170.815 104.14 270)
 		(mirror x)
@@ -38073,6 +41154,156 @@
 			(project "gbc-cm4-aio"
 				(path "/4dda0f32-68f6-467e-9c4a-af7e2b8a8793"
 					(reference "#PWR0107")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "LED:WS2812B")
+		(at 532.13 291.465 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "bf920ec5-b505-458c-a6c6-647e4b650600")
+		(property "Reference" "D21"
+			(at 537.845 283.845 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "WS2812B"
+			(at 538.48 299.085 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_WS2812B-2020_PLCC4_2.0x2.0mm"
+			(at 533.4 299.085 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf"
+			(at 534.67 300.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 532.13 291.465 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "bf85019f-decf-4c91-b21f-c7759e23cb97")
+		)
+		(pin "3"
+			(uuid "f7f63913-ee9c-4698-ac7a-ccec85578985")
+		)
+		(pin "4"
+			(uuid "e5d461cb-02e3-4cb2-887f-0e26ed0393c5")
+		)
+		(pin "1"
+			(uuid "5c50998c-d22a-4425-99e2-e47efe868565")
+		)
+		(instances
+			(project "gbc-cm4-aio"
+				(path "/4dda0f32-68f6-467e-9c4a-af7e2b8a8793"
+					(reference "D21")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "LED:WS2812B")
+		(at 419.735 291.465 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "bfb03078-3f0c-4ced-b332-feeebd6eed1b")
+		(property "Reference" "D14"
+			(at 425.45 283.845 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "WS2812B"
+			(at 426.085 299.085 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_WS2812B-2020_PLCC4_2.0x2.0mm"
+			(at 421.005 299.085 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf"
+			(at 422.275 300.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 419.735 291.465 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "73f60bda-5d96-479c-a765-b4c073546825")
+		)
+		(pin "3"
+			(uuid "a11f9064-c3e1-4d62-9506-e16e4239fd41")
+		)
+		(pin "4"
+			(uuid "3470412f-d665-4188-a5d1-34594d22c972")
+		)
+		(pin "1"
+			(uuid "7e97f859-a004-4dda-9ecb-27a4f927d36f")
+		)
+		(instances
+			(project "gbc-cm4-aio"
+				(path "/4dda0f32-68f6-467e-9c4a-af7e2b8a8793"
+					(reference "D14")
 					(unit 1)
 				)
 			)
@@ -39936,6 +43167,71 @@
 			(project "gbc-cm4-aio"
 				(path "/4dda0f32-68f6-467e-9c4a-af7e2b8a8793"
 					(reference "R3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 467.995 276.86 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "d6ccc192-9d70-4539-a56a-c98f0160da36")
+		(property "Reference" "#PWR073"
+			(at 467.995 280.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 469.265 272.415 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 467.995 276.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 467.995 276.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 467.995 276.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c77e2e9f-bdcc-4b28-ad03-e0a8803eac5e")
+		)
+		(instances
+			(project "gbc-cm4-aio"
+				(path "/4dda0f32-68f6-467e-9c4a-af7e2b8a8793"
+					(reference "#PWR073")
 					(unit 1)
 				)
 			)
@@ -42893,6 +46189,81 @@
 			(project "gbc_retrozero_screen_rev_b"
 				(path "/8908c804-27f3-4434-82a5-2dafc38c4ee8"
 					(reference "#PWR012")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "LED:WS2812B")
+		(at 452.12 291.465 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "fde7a694-03d6-4ac7-b478-483770b59e32")
+		(property "Reference" "D16"
+			(at 457.835 283.845 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "WS2812B"
+			(at 458.47 299.085 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_WS2812B-2020_PLCC4_2.0x2.0mm"
+			(at 453.39 299.085 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf"
+			(at 454.66 300.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 452.12 291.465 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "36e210a8-5a40-4c08-9324-70580306394e")
+		)
+		(pin "3"
+			(uuid "6b8e0b95-3913-4aef-92d0-b0e5c0e930d5")
+		)
+		(pin "4"
+			(uuid "3b6b3b0f-fefb-4950-90cb-6e3260a84f8a")
+		)
+		(pin "1"
+			(uuid "58db3a03-2e2b-44a9-94c6-f50de3f0b8c6")
+		)
+		(instances
+			(project "gbc-cm4-aio"
+				(path "/4dda0f32-68f6-467e-9c4a-af7e2b8a8793"
+					(reference "D16")
 					(unit 1)
 				)
 			)
