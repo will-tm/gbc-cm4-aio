@@ -24753,7 +24753,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Inductor_SMD:L_6.3x6.3_H3"
+		(property "Footprint" "Inductor_SMD:L_Changjiang_FNR3015S"
 			(at 60.96 138.43 0)
 			(effects
 				(font
@@ -37803,7 +37803,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Inductor_SMD:L_6.3x6.3_H3"
+		(property "Footprint" "Inductor_SMD:L_Changjiang_FNR4020S"
 			(at 508.635 117.475 0)
 			(effects
 				(font
