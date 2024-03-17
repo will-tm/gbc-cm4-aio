@@ -12118,138 +12118,6 @@
 				)
 			)
 		)
-		(symbol "cm4-carrier-net-rescue:Jumper_NC_Small-Device"
-			(pin_numbers hide)
-			(pin_names
-				(offset 0.762) hide)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "JP"
-				(at 0 2.032 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "Device_Jumper_NC_Small"
-				(at 0.254 -1.524 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "SolderJumper*Bridged* Jumper* TestPoint*2Pads* TestPoint*Bridge*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "Jumper_NC_Small-Device_0_1"
-				(circle
-					(center -1.016 0)
-					(radius 0.508)
-					(stroke
-						(width 0)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 1.016 0)
-					(radius 0.508)
-					(stroke
-						(width 0)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start 1.016 0.762)
-					(mid 0 1.1828)
-					(end -1.016 0.762)
-					(stroke
-						(width 0)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin passive line
-					(at -2.54 0 0)
-					(length 1.016)
-					(name "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 2.54 0 180)
-					(length 1.016)
-					(name "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
 		(symbol "power:+1V8"
 			(power)
 			(pin_names
@@ -14123,6 +13991,12 @@
 		(uuid "3b4861e8-b6ef-4e17-8086-fd4081a946d7")
 	)
 	(junction
+		(at 285.115 131.445)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3f6f1bca-1bc2-4464-a3c8-9d0d0abd950e")
+	)
+	(junction
 		(at 113.665 234.95)
 		(diameter 0.9144)
 		(color 0 0 0 0)
@@ -14655,12 +14529,6 @@
 		(diameter 0.9144)
 		(color 0 0 0 0)
 		(uuid "dd7cbcaa-f4a1-4a77-b6d7-18f11973bc25")
-	)
-	(junction
-		(at 285.115 131.445)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "ddde6aad-fbdb-41af-b3eb-6f93831e1b28")
 	)
 	(junction
 		(at 257.175 219.71)
@@ -16546,6 +16414,16 @@
 		)
 		(uuid "2a1f41f6-edfa-4f42-8f86-00b5983c6351")
 	)
+	(wire
+		(pts
+			(xy 285.115 128.905) (xy 285.115 131.445)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2a5d60f5-34fc-466d-b5db-2c60c819ad57")
+	)
 	(polyline
 		(pts
 			(xy 454.66 182.88) (xy 454.66 17.78)
@@ -17191,16 +17069,6 @@
 			(type solid)
 		)
 		(uuid "43d1bdfd-d749-4e39-a193-28b42eb48cfb")
-	)
-	(wire
-		(pts
-			(xy 175.895 321.31) (xy 183.515 321.31)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4434d477-d7d9-4c5d-8401-4e2c9a3b7901")
 	)
 	(wire
 		(pts
@@ -18530,16 +18398,6 @@
 	)
 	(wire
 		(pts
-			(xy 188.595 321.31) (xy 193.675 321.31)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "751716b4-54b4-4deb-beca-176bf87ba68d")
-	)
-	(wire
-		(pts
 			(xy 302.895 136.525) (xy 302.895 149.225)
 		)
 		(stroke
@@ -19499,6 +19357,16 @@
 	)
 	(wire
 		(pts
+			(xy 175.895 275.59) (xy 193.675 275.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9c47aac0-1869-4c88-9326-b4ffcc2140fd")
+	)
+	(wire
+		(pts
 			(xy 254.635 245.11) (xy 257.175 245.11)
 		)
 		(stroke
@@ -20420,16 +20288,6 @@
 	)
 	(wire
 		(pts
-			(xy 183.515 323.85) (xy 175.895 323.85)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "bb4dcd29-12f8-47f2-a3b7-119d0f00dc82")
-	)
-	(wire
-		(pts
 			(xy 274.32 63.5) (xy 274.32 49.53)
 		)
 		(stroke
@@ -20547,16 +20405,6 @@
 			(type default)
 		)
 		(uuid "c435ef35-bc93-41c0-bc4a-affb7d4e66c1")
-	)
-	(wire
-		(pts
-			(xy 188.595 323.85) (xy 193.675 323.85)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c4c27c30-199d-4d56-9ef2-383a94507d6f")
 	)
 	(wire
 		(pts
@@ -21514,16 +21362,6 @@
 	)
 	(wire
 		(pts
-			(xy 285.115 118.11) (xy 285.115 131.445)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "eabac7f0-40b4-4f3d-9451-5281673c9689")
-	)
-	(wire
-		(pts
 			(xy 151.13 46.99) (xy 165.1 46.99)
 		)
 		(stroke
@@ -21885,6 +21723,16 @@
 			(color 132 0 0 1)
 		)
 		(uuid "f56d0259-7c39-4bef-9408-9ba51a77568b")
+	)
+	(wire
+		(pts
+			(xy 175.895 273.05) (xy 193.675 273.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f58c1a99-d2f2-4330-9838-3e76790fb45e")
 	)
 	(wire
 		(pts
@@ -22585,6 +22433,17 @@
 		)
 		(uuid "18af8507-2873-4e61-a757-7da8491a06e9")
 	)
+	(label "SDA1"
+		(at 175.895 275.59 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "18faeade-4005-4b36-8cf9-f1ce1c88e397")
+	)
 	(label "SD_DAT1"
 		(at 307.975 141.605 0)
 		(fields_autoplaced yes)
@@ -22717,7 +22576,7 @@
 		)
 		(uuid "38effb59-a15e-4610-890c-35264155f798")
 	)
-	(label "SCL0"
+	(label "SCL1"
 		(at 240.03 69.85 180)
 		(fields_autoplaced yes)
 		(effects
@@ -23003,7 +22862,7 @@
 		)
 		(uuid "784d7741-6858-45f7-b9c9-6f12688e91e4")
 	)
-	(label "SCL0"
+	(label "SCL1"
 		(at 308.61 55.88 180)
 		(fields_autoplaced yes)
 		(effects
@@ -23058,7 +22917,7 @@
 		)
 		(uuid "7afa8298-3d42-45fc-a46d-f986205efbca")
 	)
-	(label "SDA0"
+	(label "SDA1"
 		(at 240.03 52.07 180)
 		(fields_autoplaced yes)
 		(effects
@@ -23223,7 +23082,7 @@
 		)
 		(uuid "a2198a8a-243b-4343-b4c0-5be2a623ba8f")
 	)
-	(label "SDA0"
+	(label "SDA1"
 		(at 308.61 53.34 180)
 		(fields_autoplaced yes)
 		(effects
@@ -23443,17 +23302,6 @@
 		)
 		(uuid "cbf1b440-6425-493c-af89-c97eecea745c")
 	)
-	(label "IP1"
-		(at 175.895 321.31 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "cc6ce081-ba31-4edf-bdff-b0318b7badcc")
-	)
 	(label "USB_N"
 		(at 532.13 219.075 0)
 		(fields_autoplaced yes)
@@ -23597,6 +23445,17 @@
 		)
 		(uuid "decb18f1-a878-49fd-bf3f-76848397eedb")
 	)
+	(label "SCL1"
+		(at 175.895 273.05 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "dfe54b05-6e3f-4f2b-95a1-a1b7367d8bf1")
+	)
 	(label "IP0"
 		(at 532.13 211.455 0)
 		(fields_autoplaced yes)
@@ -23695,17 +23554,6 @@
 			(justify left bottom)
 		)
 		(uuid "f3415518-810e-4d37-845c-2bcf47e9e6e0")
-	)
-	(label "IP0"
-		(at 175.895 323.85 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "f529b786-c2a8-47aa-a31e-46e18bbdf0c9")
 	)
 	(label "DSI1_PWM"
 		(at 18.415 161.29 0)
@@ -23842,6 +23690,73 @@
 			(project "gbc-cm4-aio"
 				(path "/4dda0f32-68f6-467e-9c4a-af7e2b8a8793"
 					(reference "C12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3.3V")
+		(at 285.115 128.905 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "008253bb-d1ea-4475-a33f-afc4ca185d5d")
+		(property "Reference" "#PWR062"
+			(at 285.115 132.715 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 285.115 123.825 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 285.115 128.905 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 285.115 128.905 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 285.115 128.905 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "22f0d4bf-9257-4499-9ac4-69bda76eebd7")
+		)
+		(instances
+			(project "gbc-cm4-aio"
+				(path "/4dda0f32-68f6-467e-9c4a-af7e2b8a8793"
+					(reference "#PWR062")
 					(unit 1)
 				)
 			)
@@ -25202,80 +25117,6 @@
 			(project "gbc-cm4-aio"
 				(path "/4dda0f32-68f6-467e-9c4a-af7e2b8a8793"
 					(reference "R12")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "cm4-carrier-net-rescue:Jumper_NC_Small-Device")
-		(at 186.055 323.85 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "136a7dc6-c252-4d20-8377-edd11bdad815")
-		(property "Reference" "JP2"
-			(at 182.245 322.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "~"
-			(at 186.055 326.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm"
-			(at 186.055 323.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 186.055 323.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 186.055 323.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "1363ddac-890a-4a7d-bcd7-dfe3f9479ed3")
-		)
-		(pin "2"
-			(uuid "652d8944-7412-46c7-a0b1-91c85e32de57")
-		)
-		(instances
-			(project "gbc-cm4-aio"
-				(path "/4dda0f32-68f6-467e-9c4a-af7e2b8a8793"
-					(reference "JP2")
-					(unit 1)
-				)
-			)
-			(project "cm4-carrier-net"
-				(path "/50abbab9-83d6-41b0-a543-945d84e1d51d"
-					(reference "JP1")
 					(unit 1)
 				)
 			)
@@ -28962,73 +28803,6 @@
 			(project "gbc_retrozero_screen_rev_b"
 				(path "/8908c804-27f3-4434-82a5-2dafc38c4ee8"
 					(reference "D3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+3.3V")
-		(at 285.115 118.11 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "4eb4a095-5683-464e-b0d6-97f23ff3e87e")
-		(property "Reference" "#PWR062"
-			(at 285.115 121.92 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+3V3"
-			(at 285.115 113.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 285.115 118.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 285.115 118.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 285.115 118.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "231b97fc-19b7-43ef-a432-6ce51fd79dbc")
-		)
-		(instances
-			(project "gbc-cm4-aio"
-				(path "/4dda0f32-68f6-467e-9c4a-af7e2b8a8793"
-					(reference "#PWR062")
 					(unit 1)
 				)
 			)
@@ -35031,80 +34805,6 @@
 			(project "gbc-cm4-aio"
 				(path "/4dda0f32-68f6-467e-9c4a-af7e2b8a8793"
 					(reference "C40")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "cm4-carrier-net-rescue:Jumper_NC_Small-Device")
-		(at 186.055 321.31 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "97046118-7cf1-436b-80e9-8ed1a49ab13d")
-		(property "Reference" "JP1"
-			(at 182.245 320.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "~"
-			(at 186.055 323.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm"
-			(at 186.055 321.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 186.055 321.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 186.055 321.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "70a2186f-db59-4ac8-9bb7-efb776d9adce")
-		)
-		(pin "2"
-			(uuid "e6d08a41-d3f2-4782-a2b1-f4400335fb07")
-		)
-		(instances
-			(project "gbc-cm4-aio"
-				(path "/4dda0f32-68f6-467e-9c4a-af7e2b8a8793"
-					(reference "JP1")
-					(unit 1)
-				)
-			)
-			(project "cm4-carrier-net"
-				(path "/50abbab9-83d6-41b0-a543-945d84e1d51d"
-					(reference "JP1")
 					(unit 1)
 				)
 			)
