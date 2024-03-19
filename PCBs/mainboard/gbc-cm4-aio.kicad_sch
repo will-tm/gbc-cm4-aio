@@ -15588,16 +15588,6 @@
 	)
 	(wire
 		(pts
-			(xy 33.655 90.17) (xy 34.925 90.17)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "11a1c6a9-545c-47fc-956e-5ff5326c7875")
-	)
-	(wire
-		(pts
 			(xy 365.125 224.155) (xy 381 224.155)
 		)
 		(stroke
@@ -15776,6 +15766,16 @@
 			(type solid)
 		)
 		(uuid "189be7cd-9f76-4be5-84ec-871ba26e9c83")
+	)
+	(wire
+		(pts
+			(xy 33.655 90.17) (xy 43.815 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "192c0d2d-7389-468e-962b-6120da967fdc")
 	)
 	(polyline
 		(pts
@@ -20930,16 +20930,6 @@
 	)
 	(wire
 		(pts
-			(xy 42.545 90.17) (xy 43.815 90.17)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e1e37860-f503-4468-8f6b-a43e376db861")
-	)
-	(wire
-		(pts
 			(xy 534.67 54.61) (xy 543.56 54.61)
 		)
 		(stroke
@@ -21177,16 +21167,6 @@
 			(type solid)
 		)
 		(uuid "e8ea9a0d-bf2e-41b5-96ea-7ba5aecb7073")
-	)
-	(wire
-		(pts
-			(xy 41.91 49.53) (xy 43.18 49.53)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e9090e78-fe89-480a-ac48-981e5b9423c7")
 	)
 	(wire
 		(pts
@@ -21815,7 +21795,7 @@
 	)
 	(wire
 		(pts
-			(xy 34.29 49.53) (xy 33.02 49.53)
+			(xy 33.02 49.53) (xy 43.18 49.53)
 		)
 		(stroke
 			(width 0)
@@ -22634,7 +22614,7 @@
 		)
 		(uuid "706faaf4-8c1e-4fe3-8d9c-265f76fa94f4")
 	)
-	(label "IP1"
+	(label "CC2"
 		(at 532.13 213.995 0)
 		(fields_autoplaced yes)
 		(effects
@@ -22931,7 +22911,7 @@
 		)
 		(uuid "a6baca43-ce8e-42ca-9629-f80edff9dc5d")
 	)
-	(label "IP1"
+	(label "CC2"
 		(at 514.35 244.475 0)
 		(fields_autoplaced yes)
 		(effects
@@ -23184,7 +23164,7 @@
 		)
 		(uuid "d6eb2bac-7bce-4bab-948b-3a6fa69412fe")
 	)
-	(label "IP0"
+	(label "CC1"
 		(at 514.35 239.395 0)
 		(fields_autoplaced yes)
 		(effects
@@ -23239,7 +23219,7 @@
 		)
 		(uuid "dfe54b05-6e3f-4f2b-95a1-a1b7367d8bf1")
 	)
-	(label "IP0"
+	(label "CC1"
 		(at 532.13 211.455 0)
 		(fields_autoplaced yes)
 		(effects
@@ -27137,79 +27117,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
-		(at 38.1 49.53 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "3e473049-fb24-4f13-8946-b52cc69df28a")
-		(property "Reference" "R6"
-			(at 38.1 54.61 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "10k"
-			(at 38.1 52.07 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 38.1 51.308 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 38.1 49.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 38.1 49.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "812fc85b-7f43-47b9-b5b3-d9c41c5217b5")
-		)
-		(pin "2"
-			(uuid "5a6f8b57-39ee-46a7-bd2c-01855e06541d")
-		)
-		(instances
-			(project "gbc-cm4-aio"
-				(path "/4dda0f32-68f6-467e-9c4a-af7e2b8a8793"
-					(reference "R6")
-					(unit 1)
-				)
-			)
-			(project "rpi-q5-adapter"
-				(path "/e618c82d-b530-40f1-81e4-eb7b21173688"
-					(reference "R3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 118.745 125.095 0)
 		(unit 1)
@@ -29887,79 +29794,6 @@
 			(project "gbc_retrozero_screen_rev_b"
 				(path "/8908c804-27f3-4434-82a5-2dafc38c4ee8"
 					(reference "R17")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 38.735 90.17 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "68a377c6-2451-4e3f-9f1b-a6cf7931d569")
-		(property "Reference" "R4"
-			(at 38.735 95.25 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "10k"
-			(at 38.735 92.71 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 38.735 91.948 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 38.735 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 38.735 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "ee71ae16-a1e8-4eba-8af0-7fca239a182f")
-		)
-		(pin "2"
-			(uuid "ca37b01a-6d50-4d86-ac38-ddb90d8f4f92")
-		)
-		(instances
-			(project "gbc-cm4-aio"
-				(path "/4dda0f32-68f6-467e-9c4a-af7e2b8a8793"
-					(reference "R4")
-					(unit 1)
-				)
-			)
-			(project "rpi-q5-adapter"
-				(path "/e618c82d-b530-40f1-81e4-eb7b21173688"
-					(reference "R1")
 					(unit 1)
 				)
 			)
@@ -37216,7 +37050,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Inductor_SMD:L_Changjiang_FNR4020S"
+		(property "Footprint" "Inductor_SMD:L_Changjiang_FNR5030S"
 			(at 508.635 117.475 0)
 			(effects
 				(font
