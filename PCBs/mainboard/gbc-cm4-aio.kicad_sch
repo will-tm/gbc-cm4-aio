@@ -13769,6 +13769,12 @@
 		(uuid "023c3426-5377-4d79-ba81-2cd4c98e2465")
 	)
 	(junction
+		(at 365.76 306.07)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "02d03c5f-aadd-4f0f-9ce4-1d078cfb0273")
+	)
+	(junction
 		(at 191.135 267.97)
 		(diameter 0.9144)
 		(color 0 0 0 0)
@@ -13839,6 +13845,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "179705c1-7b02-492e-bb18-88979bc475e8")
+	)
+	(junction
+		(at 365.76 309.88)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "17af16ab-a9b4-4ced-a28d-ed93554d222b")
 	)
 	(junction
 		(at 161.925 340.995)
@@ -13937,6 +13949,12 @@
 		(uuid "2f41517b-3685-4e2e-a569-c2e1d98dce56")
 	)
 	(junction
+		(at 365.76 298.45)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2fcbdb41-e62c-4389-ae75-bdcdeba6f9f2")
+	)
+	(junction
 		(at 285.75 325.755)
 		(diameter 0.9144)
 		(color 0 0 0 0)
@@ -13973,6 +13991,12 @@
 		(uuid "3398b4a6-285e-428c-90cf-98fd9a108a3a")
 	)
 	(junction
+		(at 365.76 294.64)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3406d3ff-4daf-4364-a937-047925084d8a")
+	)
+	(junction
 		(at 33.655 82.55)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -13995,6 +14019,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "3b4861e8-b6ef-4e17-8086-fd4081a946d7")
+	)
+	(junction
+		(at 365.76 313.69)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3b6d164f-8b54-4c65-87d7-ad89b2263dc4")
 	)
 	(junction
 		(at 285.115 131.445)
@@ -14303,6 +14333,12 @@
 		(uuid "95f31056-47e5-41ef-bceb-37417797092a")
 	)
 	(junction
+		(at 365.76 317.5)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "97ac1c38-9ed5-41af-bc2c-6c06ef9a640a")
+	)
+	(junction
 		(at 528.955 144.78)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -14411,6 +14447,12 @@
 		(uuid "b265a1ec-71a2-468b-92cb-f33898c72b60")
 	)
 	(junction
+		(at 365.76 325.12)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b98d30ed-21f0-4601-82f5-68ee4210f0f6")
+	)
+	(junction
 		(at 254.635 306.07)
 		(diameter 0.9144)
 		(color 0 0 0 0)
@@ -14441,6 +14483,12 @@
 		(uuid "be1a59f3-91ec-4de8-9f5a-c17bff1dd174")
 	)
 	(junction
+		(at 365.76 302.26)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "be86a855-5d48-43cc-897b-e7f4f558a5c6")
+	)
+	(junction
 		(at 116.205 71.12)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -14457,6 +14505,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "c1295603-185b-4e94-ab61-5d283d56e967")
+	)
+	(junction
+		(at 365.76 321.31)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c32f3e42-792d-452f-b33b-850e1dc926f7")
 	)
 	(junction
 		(at 191.135 295.91)
@@ -15066,6 +15120,16 @@
 	)
 	(wire
 		(pts
+			(xy 339.09 313.69) (xy 312.42 313.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "01c0789d-23c1-4b77-b4ed-0b2731b2879e")
+	)
+	(wire
+		(pts
 			(xy 384.81 38.1) (xy 407.67 38.1)
 		)
 		(stroke
@@ -15406,6 +15470,16 @@
 			(color 132 0 0 1)
 		)
 		(uuid "09eca0cf-72e5-4922-8689-8ae55a67c603")
+	)
+	(wire
+		(pts
+			(xy 349.25 313.69) (xy 365.76 313.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0a7afc8a-bb68-4546-ac3a-5f42d00f5d75")
 	)
 	(wire
 		(pts
@@ -15753,6 +15827,26 @@
 	)
 	(wire
 		(pts
+			(xy 349.885 321.31) (xy 365.76 321.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "17015f20-218a-468b-9fa5-36493a94d8aa")
+	)
+	(wire
+		(pts
+			(xy 365.76 313.69) (xy 365.76 317.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1736a521-a0b6-4c66-a2d0-e7dc3a3d36d5")
+	)
+	(wire
+		(pts
 			(xy 66.675 90.17) (xy 67.945 90.17)
 		)
 		(stroke
@@ -15770,6 +15864,16 @@
 			(type default)
 		)
 		(uuid "1817abb8-62dd-452c-bc0f-2302f56798fe")
+	)
+	(wire
+		(pts
+			(xy 365.76 294.64) (xy 365.76 298.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1822f54c-15bf-44a0-8ff5-1bd255873b25")
 	)
 	(wire
 		(pts
@@ -16083,6 +16187,16 @@
 			(type default)
 		)
 		(uuid "22eff963-ee21-43ad-98ca-8bce86e7d06e")
+	)
+	(wire
+		(pts
+			(xy 365.76 317.5) (xy 365.76 321.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "23caba96-a0d1-43ff-8507-ac93576e5acf")
 	)
 	(wire
 		(pts
@@ -16560,6 +16674,17 @@
 		)
 		(uuid "2ffd1a49-b53b-474c-8d6e-83887a51084f")
 	)
+	(polyline
+		(pts
+			(xy 298.45 265.43) (xy 298.45 350.52)
+		)
+		(stroke
+			(width 0.3)
+			(type dash)
+			(color 132 0 0 1)
+		)
+		(uuid "2ffe0f6f-b510-495a-bcad-e917030bf66f")
+	)
 	(wire
 		(pts
 			(xy 272.415 275.59) (xy 254.635 275.59)
@@ -16733,6 +16858,16 @@
 	)
 	(wire
 		(pts
+			(xy 365.76 302.26) (xy 365.76 306.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "37e75eb7-5faa-4547-8e1b-ed0d9a724e55")
+	)
+	(wire
+		(pts
 			(xy 419.1 38.1) (xy 419.1 35.56)
 		)
 		(stroke
@@ -16840,6 +16975,16 @@
 			(type solid)
 		)
 		(uuid "3cc2572e-512b-4c89-8276-f62517d331d4")
+	)
+	(wire
+		(pts
+			(xy 312.42 290.83) (xy 339.09 290.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3d3ce8f0-e6ae-46f2-b854-074abbeac495")
 	)
 	(wire
 		(pts
@@ -17156,6 +17301,16 @@
 	)
 	(wire
 		(pts
+			(xy 365.76 328.295) (xy 365.76 325.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "48780cd1-5931-4e5b-b9f2-0007a2191078")
+	)
+	(wire
+		(pts
 			(xy 307.975 126.365) (xy 318.135 126.365)
 		)
 		(stroke
@@ -17213,6 +17368,16 @@
 			(type solid)
 		)
 		(uuid "4b22385c-ffe3-49fb-828a-38fa4eea8567")
+	)
+	(wire
+		(pts
+			(xy 349.25 290.83) (xy 365.76 290.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4b604ca4-327f-4d35-8525-7378e3cfdd9d")
 	)
 	(wire
 		(pts
@@ -17336,6 +17501,16 @@
 	)
 	(wire
 		(pts
+			(xy 349.25 294.64) (xy 365.76 294.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4ec6900b-e423-461c-96ee-2798c61a9afd")
+	)
+	(wire
+		(pts
 			(xy 33.02 49.53) (xy 33.02 44.45)
 		)
 		(stroke
@@ -17404,6 +17579,16 @@
 			(type default)
 		)
 		(uuid "5321efb4-8560-4313-b0f1-adec9dc422bd")
+	)
+	(wire
+		(pts
+			(xy 349.25 317.5) (xy 365.76 317.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "534d6fdd-e0dc-47db-846a-f122e2dfcbc4")
 	)
 	(wire
 		(pts
@@ -17829,6 +18014,16 @@
 	)
 	(wire
 		(pts
+			(xy 312.42 317.5) (xy 339.09 317.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "61d0685c-632d-4ce9-aa05-df8959b88004")
+	)
+	(wire
+		(pts
 			(xy 113.665 250.19) (xy 113.665 273.05)
 		)
 		(stroke
@@ -17937,6 +18132,16 @@
 		)
 		(uuid "65336690-a578-4f2a-a328-99478a66b719")
 	)
+	(wire
+		(pts
+			(xy 349.25 306.07) (xy 365.76 306.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "653f775c-9c4f-4476-b807-5b669c1d29d9")
+	)
 	(polyline
 		(pts
 			(xy 265.43 182.88) (xy 134.62 182.88)
@@ -17967,6 +18172,16 @@
 			(type solid)
 		)
 		(uuid "66f04d15-85df-4886-9af2-f07770db6938")
+	)
+	(wire
+		(pts
+			(xy 365.76 306.07) (xy 365.76 309.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "678d80b5-d243-4fbb-bf40-a15f3f250fdf")
 	)
 	(wire
 		(pts
@@ -18097,6 +18312,16 @@
 			(type solid)
 		)
 		(uuid "6aab23ec-3d9c-4d22-853a-ad47c8ea1cc1")
+	)
+	(wire
+		(pts
+			(xy 339.09 294.64) (xy 312.42 294.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6ab2663b-8dc6-4a26-8122-f973c354985a")
 	)
 	(wire
 		(pts
@@ -18447,6 +18672,16 @@
 			(type solid)
 		)
 		(uuid "7ad182b1-e06b-42dd-8c80-9761e6a8dd74")
+	)
+	(wire
+		(pts
+			(xy 365.76 321.31) (xy 365.76 325.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7bad5381-b320-437e-89cb-c3b5670c0621")
 	)
 	(wire
 		(pts
@@ -19329,6 +19564,16 @@
 	)
 	(wire
 		(pts
+			(xy 312.42 298.45) (xy 339.09 298.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9bdb137a-2250-4dfd-92cb-8a052975e8c4")
+	)
+	(wire
+		(pts
 			(xy 175.895 275.59) (xy 193.675 275.59)
 		)
 		(stroke
@@ -19502,6 +19747,16 @@
 	)
 	(wire
 		(pts
+			(xy 339.09 302.26) (xy 312.42 302.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9f52b751-1fbd-40b8-81a5-5e9458fde976")
+	)
+	(wire
+		(pts
 			(xy 111.125 321.31) (xy 127.635 321.31)
 		)
 		(stroke
@@ -19559,6 +19814,16 @@
 			(type default)
 		)
 		(uuid "a222977c-1f26-4f34-a94a-d4116a26ca82")
+	)
+	(wire
+		(pts
+			(xy 365.76 290.83) (xy 365.76 294.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a2681ec2-3f8f-4328-a66e-ab1b76b62c89")
 	)
 	(wire
 		(pts
@@ -19794,6 +20059,16 @@
 	)
 	(wire
 		(pts
+			(xy 339.725 321.31) (xy 312.42 321.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a96e7748-ea0e-4069-8681-7b0c8d4cfc30")
+	)
+	(wire
+		(pts
 			(xy 254.635 265.43) (xy 272.415 265.43)
 		)
 		(stroke
@@ -19801,6 +20076,16 @@
 			(type default)
 		)
 		(uuid "aa459070-8910-4167-9efd-862cc3155fc3")
+	)
+	(wire
+		(pts
+			(xy 349.25 302.26) (xy 365.76 302.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "aaac0154-7746-438c-8653-be1d4c5cd4ec")
 	)
 	(wire
 		(pts
@@ -20228,6 +20513,17 @@
 		)
 		(uuid "b8ec8421-db63-4cdb-9ab7-885ff2778226")
 	)
+	(polyline
+		(pts
+			(xy 382.27 350.52) (xy 298.45 350.52)
+		)
+		(stroke
+			(width 0.3)
+			(type dash)
+			(color 132 0 0 1)
+		)
+		(uuid "b8f56122-5184-44b9-9f01-294dce51b8f8")
+	)
 	(wire
 		(pts
 			(xy 111.125 311.15) (xy 113.665 311.15)
@@ -20280,6 +20576,16 @@
 	)
 	(wire
 		(pts
+			(xy 365.76 298.45) (xy 365.76 302.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c01fa0e4-9f93-4bbe-9fb9-2e5585628ee5")
+	)
+	(wire
+		(pts
 			(xy 116.205 96.52) (xy 116.205 93.98)
 		)
 		(stroke
@@ -20317,6 +20623,16 @@
 			(type default)
 		)
 		(uuid "c0e66bb1-aa97-4fd1-9ffc-b3b29188e730")
+	)
+	(wire
+		(pts
+			(xy 349.25 309.88) (xy 365.76 309.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c14b18df-d81d-43ea-9b25-844add153ebd")
 	)
 	(wire
 		(pts
@@ -20661,6 +20977,16 @@
 	)
 	(wire
 		(pts
+			(xy 312.42 325.12) (xy 339.725 325.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d1ccc69a-75a0-4469-88bc-9029a2f792e2")
+	)
+	(wire
+		(pts
 			(xy 191.135 255.27) (xy 191.135 267.97)
 		)
 		(stroke
@@ -20688,6 +21014,16 @@
 			(type default)
 		)
 		(uuid "d2861a20-1892-4331-98b2-af5fb978920e")
+	)
+	(wire
+		(pts
+			(xy 349.25 298.45) (xy 365.76 298.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d2cd5599-1d25-419f-92a2-1121e286ead0")
 	)
 	(wire
 		(pts
@@ -20758,6 +21094,16 @@
 			(type solid)
 		)
 		(uuid "d5a8840d-0efc-4d52-82f3-6c03754a7b21")
+	)
+	(wire
+		(pts
+			(xy 365.76 309.88) (xy 365.76 313.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d68b06e0-99be-4843-a78b-aa84f73fae2e")
 	)
 	(wire
 		(pts
@@ -20849,6 +21195,16 @@
 			(type default)
 		)
 		(uuid "d916a05f-2e52-46f9-9486-26e451dfdb16")
+	)
+	(wire
+		(pts
+			(xy 312.42 306.07) (xy 339.09 306.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d94546a6-1a86-48b7-b653-f672d7041e91")
 	)
 	(wire
 		(pts
@@ -21052,6 +21408,17 @@
 		)
 		(uuid "e12e712d-a3c8-4e4c-99fb-e8789eaa7a17")
 	)
+	(polyline
+		(pts
+			(xy 298.45 265.43) (xy 382.27 265.43)
+		)
+		(stroke
+			(width 0.3)
+			(type dash)
+			(color 132 0 0 1)
+		)
+		(uuid "e139d89b-6ef2-4f31-a38f-05595ea69434")
+	)
 	(wire
 		(pts
 			(xy 369.57 66.04) (xy 369.57 68.58)
@@ -21131,6 +21498,16 @@
 			(type solid)
 		)
 		(uuid "e4a44b31-754a-44c0-8602-7d6407568979")
+	)
+	(wire
+		(pts
+			(xy 312.42 309.88) (xy 339.09 309.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e4c5fc71-ee2c-424d-b6bf-5500f93d5d3d")
 	)
 	(wire
 		(pts
@@ -21827,6 +22204,17 @@
 		)
 		(uuid "fa1e2071-e0e6-4083-ad32-1d5cadf2cfb6")
 	)
+	(polyline
+		(pts
+			(xy 382.27 265.43) (xy 382.27 350.52)
+		)
+		(stroke
+			(width 0.3)
+			(type dash)
+			(color 132 0 0 1)
+		)
+		(uuid "fa68f858-4bc0-4b6d-be33-20ce159bd80c")
+	)
 	(wire
 		(pts
 			(xy 514.35 239.395) (xy 525.145 239.395)
@@ -21980,6 +22368,16 @@
 	)
 	(wire
 		(pts
+			(xy 365.76 325.12) (xy 349.885 325.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fed31c47-f9b6-4ddf-aff5-300fe6666439")
+	)
+	(wire
+		(pts
 			(xy 300.99 48.26) (xy 300.99 69.85)
 		)
 		(stroke
@@ -22107,6 +22505,17 @@
 			(justify left bottom)
 		)
 		(uuid "63afd3ed-f1e1-4c5b-ac9e-93dd876f57fe")
+	)
+	(text "Tactile Buttons"
+		(exclude_from_sim no)
+		(at 304.292 274.828 0)
+		(effects
+			(font
+				(size 2 2)
+			)
+			(justify left bottom)
+		)
+		(uuid "7a0afdbe-a6f7-40da-a5a9-d85c81b17894")
 	)
 	(text "MicroSD Card Holder (Optional for CM4 Lite SoM)"
 		(exclude_from_sim no)
@@ -22239,6 +22648,17 @@
 			(justify right bottom)
 		)
 		(uuid "02885cf0-8d94-40a1-9274-8959b6b7e974")
+	)
+	(label "BTN_B"
+		(at 312.42 306.07 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "04bec874-5320-4550-a358-cf5d375a4be5")
 	)
 	(label "DSI1_CLK_P"
 		(at 127.635 316.23 180)
@@ -22482,6 +22902,17 @@
 		)
 		(uuid "22067c80-163d-4761-a599-53b65d3f6aa1")
 	)
+	(label "BTN_START"
+		(at 312.42 313.69 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "2abbceac-b1e5-4a5d-9292-9b93e58000cd")
+	)
 	(label "NAV_CLICK"
 		(at 175.895 260.35 0)
 		(fields_autoplaced yes)
@@ -22602,6 +23033,17 @@
 			(justify left bottom)
 		)
 		(uuid "51ed54ac-cb7d-4ecf-b530-23f0d59e5e08")
+	)
+	(label "BTN_RIGHT"
+		(at 312.42 294.64 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "54a555fe-e81a-45a4-9e70-ab303425ec66")
 	)
 	(label "AMP_L"
 		(at 509.27 81.28 180)
@@ -22889,6 +23331,17 @@
 		)
 		(uuid "7fb52493-8409-4db1-88cc-6dccd51495a3")
 	)
+	(label "BTN_LEFT"
+		(at 312.42 302.26 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "7fd9113b-0aac-4c07-b119-564fa3e6015b")
+	)
 	(label "BTN_A"
 		(at 151.13 52.07 0)
 		(fields_autoplaced yes)
@@ -22998,6 +23451,17 @@
 			(justify right bottom)
 		)
 		(uuid "9a59af40-8fdf-42eb-b557-95096f490322")
+	)
+	(label "BTN_SELECT"
+		(at 312.42 317.5 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "a00acd5a-79b0-4bf8-b2c1-9a9d95a04906")
 	)
 	(label "PWR_SW"
 		(at 175.895 245.11 0)
@@ -23142,6 +23606,17 @@
 		)
 		(uuid "b8f5bd7b-2a9c-47f7-9f06-fe929e14b172")
 	)
+	(label "BTN_X"
+		(at 312.42 325.12 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "bca6c8e8-2df1-4d38-af21-0767f77dc9d6")
+	)
 	(label "NAV_UP"
 		(at 139.065 164.465 0)
 		(fields_autoplaced yes)
@@ -23218,6 +23693,17 @@
 			(justify right bottom)
 		)
 		(uuid "c7b9542d-2e3a-4259-9a9c-921435ba57be")
+	)
+	(label "BTN_Y"
+		(at 312.42 321.31 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "ca9c1e8b-f50b-490a-82de-8391321b1931")
 	)
 	(label "USB_N"
 		(at 532.13 219.075 0)
@@ -23306,6 +23792,17 @@
 			(justify right bottom)
 		)
 		(uuid "d31a225c-5b07-4932-9704-e990af147073")
+	)
+	(label "BTN_BOTTOM"
+		(at 312.42 298.45 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "d46278ac-1955-4622-be25-038c14f185ae")
 	)
 	(label "BTN_A"
 		(at 272.415 240.03 180)
@@ -23449,6 +23946,28 @@
 			(justify left bottom)
 		)
 		(uuid "ea6b6965-a137-43fe-959d-a40a85c7a44b")
+	)
+	(label "BTN_UP"
+		(at 312.42 290.83 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "eaf520f1-9c3f-45aa-b47d-970a55c7c507")
+	)
+	(label "BTN_A"
+		(at 312.42 309.88 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "ebd8c451-5559-4448-9417-42e1365e5e78")
 	)
 	(label "USB_P"
 		(at 127.635 209.55 180)
@@ -23680,6 +24199,73 @@
 		)
 	)
 	(symbol
+		(lib_id "Switch:SW_Push")
+		(at 344.17 290.83 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00e26c87-4b70-490d-9092-99f74c82616a")
+		(property "Reference" "SW2"
+			(at 339.217 289.179 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "BTN_UP"
+			(at 350.901 289.179 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Button_Switch_SMD:SKRMABE010"
+			(at 344.17 285.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 344.17 285.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch, generic, two pins"
+			(at 344.17 290.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "44cf036e-2708-47fb-86f4-87bc0892a143")
+		)
+		(pin "1"
+			(uuid "61d0342d-2c26-4849-b083-5cb7d4930eff")
+		)
+		(instances
+			(project "gbc-cm4-aio"
+				(path "/4dda0f32-68f6-467e-9c4a-af7e2b8a8793"
+					(reference "SW2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 77.47 100.33 0)
 		(unit 1)
@@ -23819,6 +24405,73 @@
 			(project "gbc-cm4-aio-flex"
 				(path "/f89418f5-f3e5-4532-960f-8694db23b6d6"
 					(reference "#PWR013")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_Push")
+		(at 344.17 306.07 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "023ca6b9-b911-4bb1-87f7-af47d9e2f74f")
+		(property "Reference" "SW8"
+			(at 339.217 304.419 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "BTN_B"
+			(at 350.266 304.546 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Button_Switch_SMD:SKRMABE010"
+			(at 344.17 300.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 344.17 300.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch, generic, two pins"
+			(at 344.17 306.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "63cb6afc-e70d-4402-9801-776226ac2330")
+		)
+		(pin "1"
+			(uuid "c5855c51-9865-4e37-852b-f2a226689a81")
+		)
+		(instances
+			(project "gbc-cm4-aio"
+				(path "/4dda0f32-68f6-467e-9c4a-af7e2b8a8793"
+					(reference "SW8")
 					(unit 1)
 				)
 			)
@@ -24571,6 +25224,73 @@
 		)
 	)
 	(symbol
+		(lib_id "Switch:SW_Push")
+		(at 344.805 325.12 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "0c3ca7be-f7dd-43e8-8554-2e7b43bd1886")
+		(property "Reference" "SW13"
+			(at 339.852 323.469 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "BTN_X"
+			(at 350.774 323.596 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Button_Switch_SMD:SKRMABE010"
+			(at 344.805 320.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 344.805 320.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch, generic, two pins"
+			(at 344.805 325.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "8fce78c4-7cbe-4aa9-adff-597e745e4cc6")
+		)
+		(pin "1"
+			(uuid "5fc6897d-b95c-4962-8498-3ee8a4d8a0c0")
+		)
+		(instances
+			(project "gbc-cm4-aio"
+				(path "/4dda0f32-68f6-467e-9c4a-af7e2b8a8793"
+					(reference "SW13")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 387.35 76.2 0)
 		(unit 1)
@@ -24967,6 +25687,73 @@
 		)
 	)
 	(symbol
+		(lib_id "Switch:SW_Push")
+		(at 344.17 294.64 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "0f8b5c83-c936-465a-8751-d4627db9083d")
+		(property "Reference" "SW6"
+			(at 339.217 292.989 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "BTN_RIGHT"
+			(at 352.298 293.116 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Button_Switch_SMD:SKRMABE010"
+			(at 344.17 289.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 344.17 289.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch, generic, two pins"
+			(at 344.17 294.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "6b0e0668-5e46-4c40-b838-e54748e666e0")
+		)
+		(pin "1"
+			(uuid "9f7cb96b-a1e8-4890-b335-609642c3dcfb")
+		)
+		(instances
+			(project "gbc-cm4-aio"
+				(path "/4dda0f32-68f6-467e-9c4a-af7e2b8a8793"
+					(reference "SW6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 534.035 244.475 90)
 		(unit 1)
@@ -25032,6 +25819,73 @@
 			(project "gbc-cm4-aio"
 				(path "/4dda0f32-68f6-467e-9c4a-af7e2b8a8793"
 					(reference "#PWR059")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_Push")
+		(at 344.17 298.45 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "125c7020-87b7-4d7c-98e4-9b153ea1eecc")
+		(property "Reference" "SW5"
+			(at 339.217 296.799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "BTN_BOTTOM"
+			(at 353.314 296.926 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Button_Switch_SMD:SKRMABE010"
+			(at 344.17 293.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 344.17 293.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch, generic, two pins"
+			(at 344.17 298.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "e0291b6a-964d-49e6-9a49-1f8a9f737371")
+		)
+		(pin "1"
+			(uuid "49b731eb-be7c-4caa-b92b-c854beb2f2d0")
+		)
+		(instances
+			(project "gbc-cm4-aio"
+				(path "/4dda0f32-68f6-467e-9c4a-af7e2b8a8793"
+					(reference "SW5")
 					(unit 1)
 				)
 			)
@@ -25234,6 +26088,73 @@
 			(project "gbc-cm4-aio"
 				(path "/4dda0f32-68f6-467e-9c4a-af7e2b8a8793"
 					(reference "R13")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_Push")
+		(at 344.17 313.69 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "1c6963fc-c942-49c4-b9e5-757f92e3b117")
+		(property "Reference" "SW10"
+			(at 339.217 312.039 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "BTN_START"
+			(at 352.552 312.166 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Button_Switch_SMD:SKRMABE010"
+			(at 344.17 308.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 344.17 308.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch, generic, two pins"
+			(at 344.17 313.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "c1860349-3734-40e1-bcc4-8c7848f631b7")
+		)
+		(pin "1"
+			(uuid "cf0187b8-5bed-4cbb-b20c-0d5a7285e0ec")
+		)
+		(instances
+			(project "gbc-cm4-aio"
+				(path "/4dda0f32-68f6-467e-9c4a-af7e2b8a8793"
+					(reference "SW10")
 					(unit 1)
 				)
 			)
@@ -27265,6 +28186,73 @@
 			(project "gbc-cm4-aio"
 				(path "/4dda0f32-68f6-467e-9c4a-af7e2b8a8793"
 					(reference "C33")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_Push")
+		(at 344.17 317.5 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "3ebefb40-eeec-4f84-aadf-9ea826ee6bcf")
+		(property "Reference" "SW11"
+			(at 339.217 315.849 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "BTN_SELECT"
+			(at 353.314 315.976 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Button_Switch_SMD:SKRMABE010"
+			(at 344.17 312.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 344.17 312.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch, generic, two pins"
+			(at 344.17 317.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "8091eb2c-6c14-45c9-8c3d-495b94ba44f3")
+		)
+		(pin "1"
+			(uuid "ba9ff530-2335-40a1-8b16-2ae17e987b90")
+		)
+		(instances
+			(project "gbc-cm4-aio"
+				(path "/4dda0f32-68f6-467e-9c4a-af7e2b8a8793"
+					(reference "SW11")
 					(unit 1)
 				)
 			)
@@ -34550,6 +35538,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 365.76 328.295 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "97796675-9830-4e16-89d7-0806639eb1a3")
+		(property "Reference" "#PWR048"
+			(at 365.76 334.645 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 365.76 333.375 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 365.76 328.295 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 365.76 328.295 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 365.76 328.295 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0b5a6e65-bcea-4090-962d-08ab73abb1dc")
+		)
+		(instances
+			(project "gbc-cm4-aio"
+				(path "/4dda0f32-68f6-467e-9c4a-af7e2b8a8793"
+					(reference "#PWR048")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Connector:TestPoint")
 		(at 492.76 210.82 0)
 		(unit 1)
@@ -37366,6 +38420,73 @@
 			(project "gbc-cm4-aio"
 				(path "/4dda0f32-68f6-467e-9c4a-af7e2b8a8793"
 					(reference "R42")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_Push")
+		(at 344.17 302.26 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "bf39d117-bc3a-43d4-8859-6d9ae1b3ed1f")
+		(property "Reference" "SW7"
+			(at 339.217 300.609 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "BTN_LEFT"
+			(at 351.79 300.736 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Button_Switch_SMD:SKRMABE010"
+			(at 344.17 297.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 344.17 297.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch, generic, two pins"
+			(at 344.17 302.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "4f993ce1-5100-4c8d-8030-1af99c21bf09")
+		)
+		(pin "1"
+			(uuid "4a7fcda7-ae3c-4be6-afa4-2645a86db5be")
+		)
+		(instances
+			(project "gbc-cm4-aio"
+				(path "/4dda0f32-68f6-467e-9c4a-af7e2b8a8793"
+					(reference "SW7")
 					(unit 1)
 				)
 			)
@@ -41096,6 +42217,73 @@
 		)
 	)
 	(symbol
+		(lib_id "Switch:SW_Push")
+		(at 344.17 309.88 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "ed6bf9b4-9bcd-4fc3-8a1b-8965014e8d3c")
+		(property "Reference" "SW9"
+			(at 339.217 308.229 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "BTN_A"
+			(at 350.266 308.356 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Button_Switch_SMD:SKRMABE010"
+			(at 344.17 304.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 344.17 304.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch, generic, two pins"
+			(at 344.17 309.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "fcd69153-c368-43fd-a24f-73bcad63b6fa")
+		)
+		(pin "1"
+			(uuid "df8f452d-28c6-43ec-97cb-51a11a5e20ca")
+		)
+		(instances
+			(project "gbc-cm4-aio"
+				(path "/4dda0f32-68f6-467e-9c4a-af7e2b8a8793"
+					(reference "SW9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Connector:TestPoint")
 		(at 26.67 44.45 90)
 		(unit 1)
@@ -41927,6 +43115,73 @@
 			(project "gbc-cm4-aio"
 				(path "/4dda0f32-68f6-467e-9c4a-af7e2b8a8793"
 					(reference "#PWR0125")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_Push")
+		(at 344.805 321.31 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "fd0dbaa2-9258-4348-ac3c-27c77f7be65f")
+		(property "Reference" "SW12"
+			(at 339.852 319.659 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "BTN_Y"
+			(at 350.774 319.786 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Button_Switch_SMD:SKRMABE010"
+			(at 344.805 316.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 344.805 316.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch, generic, two pins"
+			(at 344.805 321.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "5572ac0b-4ce9-4589-9c79-5ca48034707e")
+		)
+		(pin "1"
+			(uuid "aa516b0d-f653-43fe-b631-746c8eb3f64e")
+		)
+		(instances
+			(project "gbc-cm4-aio"
+				(path "/4dda0f32-68f6-467e-9c4a-af7e2b8a8793"
+					(reference "SW12")
 					(unit 1)
 				)
 			)
